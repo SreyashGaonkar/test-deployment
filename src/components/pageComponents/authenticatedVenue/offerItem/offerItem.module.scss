@@ -1,0 +1,47 @@
+@import '../../../../styles/base/global';
+
+.container {
+    min-width: 16rem;
+    height: 4.5rem;
+    padding: 0.75rem 0.875rem;
+    border: 1px solid $Seperator;
+    border-radius: 0.625rem;
+
+    .player_container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+
+    .left {
+        margin-right: 1rem;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image_container {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 1.25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $Seperator;
+    }
+
+    .comment_container {
+        height: 6.5rem;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .full_width {
+        height: auto;
+    }
+
+}

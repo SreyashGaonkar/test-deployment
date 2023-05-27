@@ -1,0 +1,45 @@
+@import '../../../../styles/base/global';
+
+.ready_to_play_content{
+padding: 0px 24px;
+background-image: url("/landingimages/Footerflare3.svg");
+background-position-y: 150px;
+background-repeat: no-repeat;
+background-size: cover;
+height: 350px;
+}
+.lets_go{
+    font-family: "Nexa-ExtraBold";
+    color: $White4;
+}
+
+//resonsive media queries
+
+@media all and (min-width:0px){
+.readyplayer_text_image{
+    height: 64px;
+    width: 300px
+}
+.lets_go{
+    font-size: 26px;
+}
+}
+
+@media all and (min-width: 490px){
+    .readyplayer_text_image{
+        height: 68px;
+        width: 320px
+    }
+    .lets_go{
+        font-size: 28px;
+    }
+}
+@media all and (min-width: 540px){
+    .readyplayer_text_image{
+        height: 70px;
+        width: 340px
+    }
+    .lets_go{
+        font-size: 32px;
+    }
+}

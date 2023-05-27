@@ -1,0 +1,20 @@
+@import '../../styles/base/global';
+
+
+.container {
+    min-height: 100vh;
+    @include container;
+
+    .subText {
+        font-family: 'Nexa-TextRegular';
+        font-size: 0.938rem;
+        color: $White2;
+        margin: 0;
+    }
+
+    .input_wrapper {
+        @include row-center;
+        justify-content: flex-start;
+        gap: 1.25rem;
+    }
+}

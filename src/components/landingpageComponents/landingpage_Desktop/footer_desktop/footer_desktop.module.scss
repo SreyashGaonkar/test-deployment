@@ -1,0 +1,142 @@
+@import '../../../../styles/base/global';
+
+.footer_desktop_background{
+    background: #191a1c;
+    border-top: 1px solid #292727;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+.iconic_text{
+    background: $Iconicbg;
+    letter-spacing: .01em;
+    font-size: 17px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: .01px .01px $Textshadow;
+}
+.footer_desktop_app_icons{
+    display: flex;
+    gap: 12px;
+    margin-top: 40px;
+
+}
+.footer_desktop_turf_logo{
+    height: 62px;
+    max-width: 112px;
+
+}
+.footer_socal_desktop{
+    margin-left: 80px;
+}
+.company_desktop_title{
+   font-family: "Nexa-ExtraBold";
+    color: $White6;
+    font-size: 19px;
+    margin-bottom: 44px;
+}
+.footer_desktop_content{
+    font-family: "Nexa-TextBook";
+    color: $White9;
+    font-size: 18px;
+    margin-bottom: 44px;
+    cursor: pointer;
+}
+.col_1 {
+    flex-basis: 8.333%;
+    max-width: 8.333%;
+  }
+  
+  .col_10 {
+    flex-basis: 83.333%;
+    max-width: 83.333%;
+    margin-top: 80px;
+  }
+  
+  .col_6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .desktop_apple_icon {
+   cursor: pointer;
+}
+.desktop_gpay_icon {
+    cursor: pointer;
+}
+@media all and (min-width:768px){
+    .desktop_apple_icon {
+        height: 57.84px;
+        width: 168.44px;
+        transform: scale(.75);
+        margin-left: -20px;
+    }
+    .desktop_gpay_icon {
+        height: 59.13px;
+        width: 193.01px;
+        transform: scale(.75);
+        margin-left: -40px;
+    }
+    .iconic_text{
+        font-size: 15px;
+    }
+    .company_desktop_title{
+         margin-left: 10px;
+     }
+     .footer_desktop_content{
+        margin-left: 10px;
+     }
+}
+
+@media all and (min-width:960px){
+    .desktop_apple_icon {
+        height: 57.84px;
+        width: 178.44px;
+        transform: scale(.90);
+        margin-left: -10px;
+    }
+    .desktop_gpay_icon {
+        height: 59.13px;
+        width: 203.01px;
+        transform: scale(.90);
+        margin-left: -15px;
+    }
+    .iconic_text{
+        font-size: 17px;
+    }
+}
+@media all and (min-width:1440px){
+    .desktop_apple_icon {
+        transform: scale(1);
+    margin-left: 0;
+    }
+    .desktop_gpay_icon {
+        transform: scale(1);
+    margin-left: 0;
+    }
+}
+@media all and (min-width:1530px){
+    .col_1 {
+        flex-basis: 10%;
+        max-width: 10%;
+      }
+}
+@media all and (min-width:1889px){
+    .footer_desktop_background{
+        padding-left: 60px;
+    }
+    .col_1 {
+        flex-basis: 20%;
+        max-width: 20%;
+      }
+      
+      .col_10 {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-top: 80px;
+      } 
+      .col_6 {
+        flex-basis: 50%;
+        max-width: 50%;
+      }
+}

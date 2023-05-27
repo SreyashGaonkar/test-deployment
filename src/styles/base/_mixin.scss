@@ -1,0 +1,62 @@
+@import "./sizes";
+
+@mixin for-small-phone-only {
+    @media (max-width: $smallPhone) {
+        @content;
+    }
+}
+
+@mixin for-medium-phone-only {
+    @media (max-width: $mediumPhone) {
+        @content;
+    }
+}
+
+@mixin for-large-phone-only {
+    @media (min-width: $largePhone) {
+        @content;
+    }
+}
+
+@mixin for-tablet-portrait-up {
+    @media (min-width: $largeTabletPotrait) {
+        @content;
+    }
+}
+
+@mixin for-tablet-landscape-up {
+    @media (min-width: $largeTabletLandscape) {
+        @content;
+    }
+}
+
+@mixin for-desktop-up {
+    @media (min-width: $desktopUp) {
+        @content;
+    }
+}
+
+@mixin for-big-desktop-up {
+    @media (min-width: $bigDesktopUp) {
+        @content;
+    }
+}
+
+@mixin row-center {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@mixin container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+
+    @media screen and (max-height: 700px) {
+        min-height: 45rem;
+    }
+}

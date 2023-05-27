@@ -1,0 +1,17 @@
+@import '../../../styles';
+
+.container {
+    position: absolute;
+    width: 100%;
+    max-width: 37.5rem;
+    height: 8.438rem;
+    top: -8.5rem;
+    background: $ChipGrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 10;
+    padding: 1.375rem;
+    align-self: center;
+}

@@ -1,0 +1,13 @@
+@import '../../styles/base/global';
+
+.container {
+    min-height: 100vh;
+    @include container;
+
+    .errorText {
+        font-family: 'Nexa-TextRegular';
+        font-size: 0.875rem;
+        color: $ErrorText;
+        margin: 0;
+    }
+}

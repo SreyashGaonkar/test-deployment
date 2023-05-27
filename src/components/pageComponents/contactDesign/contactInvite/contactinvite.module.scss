@@ -1,0 +1,105 @@
+@import '../../../../styles/base/global';
+
+.contact_title_desktop{
+    font-family: "Nexa-Bold";
+    color: $White4;
+}
+.contact_content_desktop{
+    font-family: "Nexa-Regular";
+    color: $TextGray;
+   
+}
+.dotted_line_desktop{
+    border-top: 1px solid #272A2E;
+}
+
+//resonsive media queries
+
+@media all and (min-width:768px){
+    .contact_title_desktop{
+        font-size: 20px;
+        margin-bottom: 32px;
+        margin-top: 60px;
+    }
+    .contact_content_desktop{
+        font-size: 11px;   
+        line-height: 20px;
+    }
+    .dotted_line_desktop{
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+}
+@media all and (min-width:800px){
+    .contact_title_desktop{
+        font-size: 22px;
+        margin-bottom: 32px;
+        margin-top: 60px;
+    }
+    .contact_content_desktop{
+        font-size: 12px;   
+        line-height: 22px;
+    }
+    .dotted_line_desktop{
+        margin-top: 35px;
+        margin-bottom: 34px;
+    }
+}
+
+@media all and (min-width:1024px){
+    .contact_title_desktop{
+        font-size: 30px;
+        margin-bottom: 32px;
+        margin-top: 60px;
+    }
+    .contact_content_desktop{
+        font-size: 16px;   
+        line-height: 170%;
+    }
+    .dotted_line_desktop{
+        margin-top: 35px;
+        margin-bottom: 40px;
+    }
+}
+@media all and (min-width:1280px){
+    .contact_title_desktop{
+        font-size: 35px;
+        margin-bottom: 32px;
+        margin-top: 60px;
+    }
+    .contact_content_desktop{
+        font-size: 19px;   
+        line-height: 170%;
+    }
+    .dotted_line_desktop{
+        margin-top: 35px;
+        margin-bottom: 40px;
+    }
+}
+
+@media all and (min-width:1530px){
+    .contact_title_desktop{
+        font-size: 40px;
+        margin-bottom: 32px;
+        margin-top: 60px;
+    }
+    .contact_content_desktop{
+        font-size: 22px;   
+    }
+    .dotted_line_desktop{
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+}
+@media all and (min-width:1669px){
+
+}
+@media all and (min-width:1889px){
+
+}
+@media all and (min-width:1920px){
+
+}
+@media all and (min-width:1921px){
+
+}

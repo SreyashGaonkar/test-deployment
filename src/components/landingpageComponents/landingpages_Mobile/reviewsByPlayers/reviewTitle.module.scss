@@ -1,0 +1,117 @@
+@import '../../../../styles/base/global';
+
+.container_review{
+    padding: 0px 24px;
+}
+.review_container{
+   background: #191A1c;
+   border-top: 1px solid #2A2B2E ;
+   background-image: url('/landingimages/loveflare.webp');
+   background-repeat: no-repeat;
+   background-position-y: 0% ;
+   background-size: 150%;
+   
+}
+.container_overflow{
+    height: 1000px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    overflow: hidden;
+    justify-items: center;
+    align-items: center;
+}
+.review_title {
+    font-family: "Nexa-ExtraBold";
+    font-size: 32px;
+    color: $White4;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.review_title2 {
+    font-family: "Nexa-ExtraBold";
+    font-size: 32px;
+    color: $White4;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.review_top {
+    width: 100%;
+    height: 5%;
+    margin-top: -10px;
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(180deg, rgba(25, 26, 28, 0) .69%, rgba(25, 26, 28, .4) 18.51%, rgba(25, 26, 28, .849462) 55.33%, #191a1c 100%);
+}
+.review_bottom {
+    border-bottom: 1px solid rgb(41, 39, 39);
+    width: 100%;
+    height: 2%;
+    margin-top: -224px;
+    transform: rotate(0deg);
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(180deg, rgba(25, 26, 28, 0) .69%, rgba(25, 26, 28, .4) 18.51%, rgba(25, 26, 28, .849462) 55.33%, #191a1c 100%);
+
+}
+.review_card {
+    background: #2A2B2E;
+    border: 1px solid #2E2E2E;
+     border-radius: 15px;
+     padding: 20px;
+     margin-bottom: 30px;
+     
+}
+
+.reviewer {
+    display: flex;
+    gap: 10px;
+
+    .reviewer_image {
+        height: 46px;
+        width: 46px;
+        margin-top: 4px;
+
+    }
+
+    .reviewer_name {
+        font-family: "Nexa-ExtraBold";
+        color: $White4;
+        font-size: 17px;
+    }
+
+    .reviewer_nickname {
+        font-family: "Nexa-Regular";
+        color: $TextGray3;
+        font-size: 17px;
+    }
+
+}
+.reviewerdetails{
+    font-family: "Nexa-Bold";
+    color: $White5;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.reviewerdetails2{
+    font-family: "Nexa-Bold";
+    color: $White5;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.animate_review{
+       height: calc(250px *30);
+    animation: 200s linear -20s infinite upwards;
+    animation-play-state: running!important;
+}
+@keyframes upwards {
+    0% {
+    transform: translateX(0);
+}
+100% {
+    transform: translateY(calc(-250px *10));
+}
+}

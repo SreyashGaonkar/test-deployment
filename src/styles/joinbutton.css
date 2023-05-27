@@ -1,0 +1,2083 @@
+@media all and (min-width:280px) and (min-height:650px){
+    .gametypes{
+        font-size: 10px;
+    }
+    
+    .view{
+        font-size: 13px;
+    }
+  
+    #border{
+        margin-left: 2vh;
+     }
+    .hzline{
+        min-width: 0px;
+    }
+ .follows{
+    font-size: 12px
+ }
+ .counts{
+    font-size: 12px;
+    
+ }
+
+ .horiz{
+    width: 250px;
+ }
+ #terrace{
+    font-size: 15px;
+ }
+ .ratings{
+    font-size: 14px;
+ }
+ /* .star{
+    margin-top:0vh;
+ } */
+ .points{
+    font-size: 13px;
+    margin-top: 2px;
+ }
+ .dotball{
+    margin-top: -0.5vh;
+ }
+ .gametype{
+    width: 250px;
+    margin-left: -1.05vh;
+ }
+
+#tng{
+    font-size: 13px;
+}
+.name{
+    font-size: 14px;
+    margin-top: 1vh;
+}
+.atnickname{
+    font-size: 13px;
+   
+}
+#followers{
+    transform: scale(0.9);
+    margin-left: -1.5vh;
+   
+}
+
+
+ 
+}
+
+@media all and (min-width:320px) and (min-height:470px){
+    .gametypes{
+        font-size: 10px;
+    }
+    
+    .hzline{
+ 
+        min-width: 5px;
+    }
+
+    #border{
+        margin-left: -3vh;
+     }
+ .follows{
+    font-size: 12px
+ }
+ .counts{
+    font-size: 12px;
+    
+ }
+
+ .horiz{
+    width: 290px;
+ }
+
+ .gametype{
+    width: 285px;
+    margin-left: -0.8vh;
+ }
+
+/* .star{
+    transform: scale(1.2);
+    margin-top: 0.3vh;
+  } */
+ 
+}
+@media all and (min-width:320px) and (min-height:530px){
+.footballbutns{
+    height: 30px;
+
+}
+.footballbutn{
+    height: 30px;
+}
+.gametypes{
+    font-size: 10px;
+}
+
+    .hzline{
+      
+        min-width: 260px;
+    }
+ .follows{
+    font-size: 12px
+ }
+ .counts{
+    font-size: 12px;
+    
+ }
+
+ .horiz{
+    width: 290px;
+ }
+
+#border{
+    margin-left: 0vh;
+ }
+
+ .gametype{
+    width: 289px;
+    margin-left: -1.2vh;
+ }
+
+/* .star{
+    transform: scale(1.2);
+    margin-top: 0.3vh;
+  } */
+ 
+}
+@media all and (min-width:320px) and (min-height:560px){
+
+    .hzline{
+       
+        min-width: 260px;
+    }
+
+ .follows{
+    font-size: 12px
+ }
+ .counts{
+    font-size: 12px;
+    
+ }
+
+ .horiz{
+    width: 290px;
+ }
+
+#border{
+    margin-left: 0vh;
+ }
+
+ /* .star{
+    /* transform: scale(1.2); 
+    margin-top: 0.3vh;
+  }
+  */
+}
+@media all and (min-width:320px) and (min-height:570px){
+
+    .hzline{
+        border-top: 1px dashed #000000;
+        min-width: 5px;
+    }
+
+ .follows{
+    font-size: 12px
+ }
+
+ .counts{
+    font-size: 12px;
+    
+ }
+
+#border{
+    margin-left: -2vh;
+ }
+
+ .horiz{
+    width: 290px;
+ }
+  /* .star{
+    /* transform: scale(1.2); 
+    margin-top: 0.3vh;
+  } */
+ 
+}
+@media all and (min-width:350px){
+    .gametypes{
+        font-size: 13px;
+    }
+    .footballbutns{
+        padding-right: 12px !important;
+        padding-left: 12px !important;
+    }
+    
+}
+@media all and (min-width:362px){
+    .gametypes{
+        font-size: 14px;
+    }
+
+    
+}
+@media all and (min-width:350px) and (min-height:500px){
+
+    .hzline{
+        border-top: 1px dashed #000000;
+        width: 305px;
+    }
+
+    #border{
+        margin-left: 1.5vh;
+    }
+
+ .follows{
+    font-size: 12px
+ }
+ .counts{
+    font-size: 12px;
+    
+ }
+
+ .horiz{
+    width: 325px;
+ }
+ .gametype{
+    width:auto;
+    margin-left: 0vh;
+ }
+
+/* .star{
+    transform: scale(1);
+    margin-top: 0.3vh;
+  } */
+  .names, .name{
+    font-size: 16px;
+  }
+  #followers{
+    transform: scale(1);
+  }
+ 
+}
+@media all and (min-width:350px) and (min-height:550px){
+
+
+    .hzline{
+        border-top: 1px dashed #000000;
+        width: 305px;
+    }
+
+    #border{
+        margin-left: 1vh;
+    }
+
+ .follows{
+    font-size: 12px
+ }
+ .counts{
+    font-size: 12px;
+    
+ }
+
+ .horiz{
+    width: 328px;
+ }
+
+ .gametype{
+    width:auto;
+    margin-left: 0vh;
+ }
+
+/* .star{
+    transform: scale(1);
+    margin-top: 0vh ;
+  } */
+  .names, .name{
+    font-size: 16px;
+  }
+  #followers{
+    transform: scale(1);
+  }
+}
+@media all and (min-width:350px){
+
+    /* .star{
+        transform: scale(1) !important;
+        margin-top: 0vh !important;
+      } */
+      .names, .name{
+        font-size: 16px;
+      }
+      #followers{
+        transform: scale(1) !important;
+      }
+      .gametype{
+        width: auto;
+        margin-left: 0vh;
+     }
+}
+@media all and (min-width:350px) and (min-height:630px){
+
+    .hzline{
+        border-top: 1px dashed #000000;
+        width: 305px;
+    }
+
+ .follows{
+    font-size: 12px
+ }
+ .counts{
+    font-size: 12px;
+    
+ }
+
+ .horiz{
+    width: 330px;
+ }
+
+ 
+}
+
+@media all and (min-width:350px) and (min-height:640px){
+
+    .hzline{
+        border-top: 1px dashed #000000;
+        width: 305px;
+    }
+ 
+ .follows{
+    font-size: 12px
+ }
+ .counts{
+    font-size: 12px;
+    
+ }
+ #border{
+    margin-left: 2vh;
+ }
+
+ .horiz{
+    width: 325px;
+ }
+
+ 
+}
+@media all and (min-width:350px) and (min-height:690px){
+
+    .hzline{
+        border-top: 1px dashed #000000;
+        width: 305px;
+    }
+
+
+ .follows{
+    font-size: 12px
+ }
+ .counts{
+    font-size: 12px;
+    
+ }
+
+ .horiz{
+    width: 329px;
+ }
+.ratings{
+    font-size: 15px;
+}
+ 
+}
+@media all and (min-width:350px) and (min-height:740px){
+
+    .hzline{
+        border-top: 1px dashed #000000;
+        width: 305px;
+    }
+
+
+ .follows{
+    font-size: 12px
+ }
+ .counts{
+    font-size: 12px;
+    
+ }
+
+ .horiz{
+    width: 329px;
+ }
+
+}
+@media all and (min-width:360px){
+    .ratings{
+        font-size: 15px !important;
+    }
+    .name, .names{
+        font-size: 16px !important;
+    }
+   
+    .atnickname{
+        font-size: 16px
+    }
+    #terrace{
+        font-size: 16px;
+    }
+    .counts, .follows{
+        font-size: 15px;
+       
+        
+    }
+    #followers{
+        transform: scale(1);
+        margin-left: 0vh;
+    }
+    .points{
+        font-size: 15px;
+    }
+    .view{
+        font-size: 15px;
+    }
+     #tng{
+        font-size: 16px;
+     }
+}
+@media all and (min-width:360px) and (min-height:720px){
+
+    .hzline{
+        border-top: 1px dashed #0C0C0D;
+        width: 305px;
+    }
+
+ .follows{
+    font-size: 12px
+ }
+ .counts{
+    font-size: 12px;
+    
+ }
+
+ .horiz{
+    width: 329px;
+ }
+
+}
+@media all and (min-width:360px) and (min-height:760px){
+
+    .hzline{
+        border-top: 1px dashed #000000;
+        width: 305px;
+    }
+
+
+ .follows{
+    font-size: 12px
+ }
+ .counts{
+    font-size: 12px;
+    
+ }
+
+ .horiz{
+    width: 327px;
+ }
+
+}
+@media all and (min-width:360px) and (min-height:780px){
+
+    .hzline{
+        border-top: 1px dashed #000000;
+        width: 305px;
+    }
+
+ .follows{
+    font-size: 12px
+ }
+ .counts{
+    font-size: 12px;
+    
+ }
+
+ #border{
+    margin-left: 1vh;
+ }
+
+ .horiz{
+    width: 329px;
+ }
+
+}
+@media all and (min-width:360px) and (min-height:800px){
+
+    .hzline{
+        border-top: 1px dashed #000000;
+        width: 305px;
+    }
+ .follows{
+    font-size: 12px
+ }
+ .counts{
+    font-size: 12px;
+    
+ }
+
+ #border{
+    margin-left: 0.5vh;
+ }
+
+ .horiz{
+    width: 327px;
+ }
+ .gametype{
+    width: auto;
+    margin-left: 0vh;
+ }
+
+}
+@media all and (min-width:370px) and (min-height:660px){
+
+    #border{
+        margin-left: -1vh;
+    }
+
+    .horiz{
+        width: 340px;
+    }
+    .horizontalline{
+        width: 313px;
+    }
+    .gametype{
+        width:340px;
+        margin-left: -0.8vh;
+     }
+
+}
+@media all and (min-width:370px) and (min-height:810px){
+    .gametype{
+        width:339px;
+        margin-left: -0.8vh;
+     }
+}
+@media all and (min-width:380px) and (min-height:750px){
+
+    .horizontalline{
+        width: 320px;
+    }
+
+    .gametype{
+        width:347px;
+        margin-left: -0.8vh;
+     }
+}
+@media all and (min-width:383px) and (min-height:640px){
+
+    .horizontalline{
+        width: 325px;
+    }
+    .horiz{
+        width: 355px;
+    }
+
+    #border{
+        margin-left: -2.5vh;
+    }
+    .gametype{
+        width:348px;
+        margin-left: -0.8vh;
+     }
+}
+@media all and (min-width:384px) and (min-height:750px){
+
+    .horizontalline{
+        width: 320px;
+    }
+
+    .gametype{
+        width:347px;
+        margin-left: -0.8vh;
+     }
+}
+@media all and (min-width:385px) and (min-height:840px){
+
+    .horizontalline{
+        width: 325px;
+    }
+    .horiz{
+        width: 355px;
+    }
+
+    #border{
+        margin-left: -2.5vh;
+    }
+    .gametype{
+        width:347px;
+        margin-left: -0.3vh;
+     }
+}
+
+@media all and (min-width:390px) and (min-height:690px){
+
+    .horizontalline{
+        width: 330px;
+    }
+    .horiz{
+        width: 355px;
+    }
+
+    #border{
+        margin-left: -2.5vh;
+    }
+    .gametype{
+        width:350px;
+        margin-left: -0.2vh;
+     }
+}
+@media all and (min-width:390px) and (min-height:840px){
+
+    .horizontalline{
+        width: 330px;
+    }
+    .horiz{
+        width: 355px;
+    }
+
+    #border{
+        margin-left: -2.5vh;
+    }
+}
+@media all and (min-width:393px) and (min-height:780px){
+
+    .horizontalline{
+        width: 327px;
+    }
+
+    #border{
+        margin-left: -2.8vh;
+    }
+    .horiz{
+        width: 358px;
+    }
+    .gametype{
+        width:350px;
+        margin-left: 0vh;
+     }
+}
+@media all and (min-width:393px) and (min-height:840px){
+
+    .horizontalline{
+        width: 327px;
+    }
+
+    #border{
+        margin-left: -2.9vh;
+    }
+    .horiz{
+        width: 358px;
+    }
+}
+@media all and (min-width:393px) and (min-height:850px){
+
+  
+    .horizontalline{
+        width: 327px;
+    }
+
+    #border{
+        margin-left: -2.9vh;
+    }
+    .horiz{
+        width: 358px;
+    }
+}
+@media all and (min-width:410px){
+    .name{
+        margin-top: 0.5vh;
+    }
+    .follows{
+        font-size: 14px !important;
+        
+    }
+    .counts{
+        font-size: 14px !important;
+    }
+}
+@media all and (min-width:700px){
+    .name{
+        margin-top: 0.5vh;
+    }
+    .follows{
+        font-size: 15px !important;
+        
+    }
+    .counts{
+        font-size: 15px !important;
+    }
+}
+@media all and (min-width:400px) and (min-height:640px){
+
+    .horizontalline{
+        width: 340px;
+    }
+
+    #border{
+        margin-left: -6.5vh;
+    }
+    .horiz{
+        width: 375px;
+    }
+    .gametype{
+        width:auto;
+        margin-left: 0vh;
+     }
+
+}
+@media all and (min-width:410px) and (min-height:640px){
+
+    .horizontalline{
+        width: 340px;
+    }
+
+    #border{
+        margin-left: -6.5vh;
+    }
+    .horiz{
+        width: 375px;
+    }
+
+}
+@media all and (min-width:410px) and (min-height:700px){
+
+ 
+    .horizontalline{
+        width: 340px;
+    }
+
+    #border{
+        margin-left: -6vh;
+    }
+    .horiz{
+        width: 375px;
+    }
+}
+
+@media all and (min-width:410px) and (min-height:790px){
+
+    .horizontalline{
+        width: 380px;
+    }
+    .horiz{
+        width: 380px;
+    }
+
+    .hzline{
+        width: 350px;
+    }
+    #border{
+        margin-left: -0.05vh;
+    }
+
+
+}
+
+
+@media all and (min-width:411px) and (min-height:730px){
+ 
+
+    .horizontalline{
+        width: 345px;
+    }
+
+    #border{
+        margin-left: -6vh;
+    }
+    .horiz{
+        width: 378px;
+    }    
+}
+@media all and (min-width:411px) and (min-height:820px){
+
+
+     .horizontalline{
+         width: 345px;
+     }
+     .hzline{
+         width: 340px;
+     }
+     #border{
+         margin-left: 0vh;
+     }
+ }
+@media all and (min-width:412px) and (min-height:730px){
+
+ 
+    .horizontalline{
+        width: 345px;
+    }
+    #border{
+        margin-left: 0vh;
+    }
+    .horiz{
+        width: 370px;
+    }
+
+    .hzline{
+        width: 350px;
+    }
+
+
+}
+@media all and (min-width:410px) and (min-height:910px){
+
+
+    .horizontalline{
+        width: 350px;
+    }
+    .hzline{
+        width: 340px;
+    }
+    #border{
+        margin-left: -1vh;
+    }
+ 
+
+    
+}
+@media all and (min-width:412px) and (min-height:791px){
+ 
+
+    .horizontalline{
+        width: 345px;
+    }
+    .horiz{
+        width: 380px;
+    }
+
+    .hzline{
+        width: 350px;
+    }
+
+
+}
+
+ @media all and (min-width:412px) and (min-height:890px){
+
+
+    .horizontalline{
+        width: 350px;
+    }
+    .hzline{
+        width: 340px;
+    }
+    #border{
+        margin-left: -1vh;
+    }
+
+    
+}
+@media all and (min-width:412px) and (min-height:915px){
+
+    .horizontalline{
+        width: 350px;
+    }
+    .hzline{
+        width: 340px;
+    }
+    #border{
+        margin-left: -1vh;
+    }
+ 
+
+    
+}
+@media all and (min-width:414px) and (min-height:730px){
+
+
+
+     .horizontalline{
+         width: 350px;
+     }
+     .hzline{
+         width: 340px;
+     }
+     .horiz{
+        width: 380px;
+     }
+     #border{
+         margin-left: -1vh;
+     }
+ 
+     
+ }
+@media all and (min-width:414px) and (min-height:890px){
+
+
+     .horizontalline{
+         width: 350px;
+     }
+     .hzline{
+         width: 340px;
+     }
+     #border{
+         margin-left: -1vh;
+     }
+ 
+     
+ }
+
+@media all and (min-width:480px) and (min-height:800px){
+
+    .hzline{
+        border-top: 1px dashed #000000;
+        min-width: 400px;
+    }
+ .follows{
+    font-size: 12px
+ }
+ .counts{
+    font-size: 12px;
+    
+ }
+
+ .horizontalline{
+    width: 420px;
+ }
+ .horiz{
+    width: 440px;
+ }
+
+ 
+}
+@media all and (min-width:480px) and (min-height:850px){
+ 
+    .hzline{
+        border-top: 1px dashed #000000;
+        min-width: 400px;
+    }
+ .follows{
+    font-size: 12px
+ }
+ .counts{
+    font-size: 12px;
+    
+ }
+
+ .horizontalline{
+    width: 420px;
+ }
+ .horiz{
+    width: 440px;
+ }
+
+ 
+}
+@media all and (min-width: 500px) and (min-height: 350px){
+ 
+    .hzline{
+        
+        width: 450px;
+    }
+    #border{
+        margin-left: 4vh;
+    }
+
+    #sticky{
+        margin-left: -65vh;
+    }
+
+}
+@media all and (min-width: 500px) and (min-height: 500px){
+
+    .hzline{
+        
+        width: 450px;
+    }
+    #border{
+        margin-left: 4vh;
+    }
+    #sticky  #canvasbutton{
+        width: 450px !important;
+        margin-left: 20.5vh !important;
+    }
+    #sticky{
+        margin-left: -65vh;
+    }
+
+}
+@media all and (min-width: 540px) and (min-height: 720px){
+
+    #sticky{
+        margin-left: -35vh;
+    }
+
+    .hzline{
+        
+        width: 450px;
+    }
+    #border{
+        margin-left: -3vh;
+    }
+
+     .horizontalline{
+        width: 465px;
+     }
+     .horiz{
+        width: 495px;
+     }
+
+}
+
+@media all and (min-width: 550px) and (min-height: 350px){
+  
+    .hzline{
+        
+        width: 450px;
+    }
+    #border{
+        margin-left: -8vh;
+    }
+
+     .horizontalline{
+        width: 480px;
+     }
+     .horiz{
+        width: 510px;
+     }
+
+    #sticky{
+        margin-left: -75vh;
+    }
+
+}
+@media all and (min-width: 560px) and (min-height: 300px){
+ 
+    .hzline{
+        
+        width: 450px;
+    }
+    #border{
+        margin-left: -13vh;
+    }
+
+     .horizontalline{
+        width: 485px;
+     }
+     .horiz{
+        width: 520px;
+     }
+
+}
+@media all and (min-width: 600px) and (min-height: 800px){
+ 
+    .hzline{
+        
+        width: 450px;
+    }
+    #border{
+        margin-left: -3vh;
+    }
+     .horizontalline{
+        width: 470px;
+     }
+     .horiz{
+        width: 505px;
+     }
+
+
+}
+@media all and (min-width: 600px) and (min-height: 960px){
+
+    .hzline{
+        
+        width: 450px;
+    }
+    #border{
+        margin-left: -3vh;
+    }
+
+     .horizontalline{
+        width: 470px;
+     }
+     .horiz{
+        width: 505px;
+     }
+     #sticky  #canvasbutton{
+        width: 495px !important;
+        margin-left: 4.5vh !important;
+    }
+    #sticky{
+        margin-left: -30vh;
+    }
+
+}
+@media all and (min-width: 600px) and (min-height:1024px){
+
+    .hzline{
+        
+        width: 450px;
+    }
+    #border{
+        margin-left: -3vh;
+    }
+
+     .horizontalline{
+        width: 470px;
+     }
+     .horiz{
+        width: 505px;
+     }
+
+
+}
+@media all and (min-width: 630px) and (min-height: 350px){
+
+    .hzline{
+        
+        width: 450px;
+    }
+    #border{
+        margin-left: -7vh;
+    }
+
+     .horizontalline{
+        width: 470px;
+     }
+     .horiz{
+        width: 505px;
+     }
+
+    .gametype{
+        margin-left: 1vh;
+    }
+
+}
+@media all and (min-width: 640px) and (min-height: 350px){
+
+    .hzline{
+        
+        width: 500px;
+    }
+    #border{
+        margin-left: -7vh;
+    }
+
+     .horizontalline{
+        width: 570px;
+     }
+     .horiz{
+        width: 505px;
+     }
+
+}
+@media all and (min-width: 640px) and (min-height:410px){
+  
+    .hzline{
+        
+        width: 500px;
+    }
+    #border{
+        margin-left: -7vh;
+    }
+
+     .horizontalline{
+        width: 470px;
+     }
+     .horiz{
+        width: 505px;
+     }
+}
+@media all and (min-width: 645px) and (min-height:900px){
+
+     .horizontalline{
+        width: 570px;
+     }
+
+}
+@media all and (min-width: 660px) and (min-height:900px){
+
+    .horizontalline{
+       width: 610px;
+    }
+
+}
+@media all and (min-width: 650px) and (min-height:270px){
+
+    .horizontalline{
+        width: 575px;
+     }
+    .hzline{
+        
+        width: 500px;
+    }
+
+}
+@media all and (min-width: 660px) and (min-height:370px){
+
+ 
+    .hzline{
+       
+        width: 500px;
+    }
+    #border{
+        margin-left: -7vh;
+    }
+
+     .horizontalline{
+        width: 470px;
+     }
+     .horiz{
+        width: 510px;
+     }
+
+}
+
+@media all and (min-width: 690px) and (min-height: 350px){
+
+    .hzline{
+        
+        width: 500px;
+    }
+    #border{
+        margin-left: -8vh;
+    }
+
+     .horizontalline{
+        width: 470px;
+     }
+     .horiz{
+        width: 510px;
+     }
+
+}
+@media all and (min-width: 720px) and (min-height:540px){
+
+    .hzline{
+        
+        width: 500px;
+    }
+    #border{
+        margin-left: -5vh;
+    }
+
+     .horizontalline{
+        width: 470px;
+     }
+     .horiz{
+        width: 510px;
+     }
+
+}
+@media all and (min-width: 730px) and (min-height:410px){
+ 
+    .hzline{
+       
+        width: 500px;
+    }
+    #border{
+        margin-left: -7vh;
+    }
+
+     .horizontalline{
+        width: 470px;
+     }
+     .horiz{
+        width: 510px;
+     }
+
+    .gametype{
+        margin-left: 2vh;
+    }
+}
+@media all and (min-width:760px) and (min-height:900px){
+    .horizontalline{
+        width: 320px;
+    }
+}
+@media all and (min-width: 765px) and (min-height: 1024px){
+
+    .hzline{
+         
+        width: 560px;
+    }
+    #border{
+        margin-left: -4vh;
+    }
+
+     .horizontalline{
+        width: 325px;
+     }
+     .horiz{
+        width: 510px;
+     }
+
+
+}
+@media all and (min-width: 765px) and (min-height: 1366px){
+ 
+    .hzline{
+       
+        width: 560px;
+    }
+    #border{
+        margin-left: -2.5vh;
+    }
+
+     .horizontalline{
+        width: 470px;
+     }
+     .horiz{
+        width: 510px;
+     }
+
+    .gametype{
+        margin-left: 1vh;
+    }
+
+}
+@media all and (min-width: 770px) and (min-height: 350px){
+
+    .hzline{
+        
+        width: 560px;
+    }
+    #border{
+        margin-left: -9vh;
+    }
+    .horizontalline{
+        width: 320px;
+     }
+    
+}
+@media all and (min-width: 770px) and (min-height: 900px){
+
+    .hzline{
+        
+        width: 560px;
+    }
+    #border{
+        margin-left: -9vh;
+    }
+    .horizontalline{
+        width: 320PX;
+    }
+    
+}
+@media all and (min-width: 780px) and (min-height: 390px){
+
+    .hzline{
+        
+        width: 550px;
+    }
+    #border{
+        margin-left: -9vh;
+    }
+
+     .horizontalline{
+        width: 320px;
+     }
+     .horiz{
+        width: 510px;
+     }
+
+
+}
+@media all and (min-width:780px) and (min-height:900px){
+    .horizontalline{
+        width: 320px;
+    }
+}
+@media all and (min-width:800px) and (min-height: 1280px){
+
+    .hzline{
+        
+        width: 550px;
+    }
+    #border{
+        margin-left: -3.5vh;
+    }
+
+     .horizontalline{
+        width: 470px;
+     }
+     .horiz{
+        width: 510px;
+     }
+
+    .gametype{
+        margin-left: 0vh;
+    }
+
+}
+@media all and (min-width:800px){
+    .gametype{
+        margin-left: 0vh;
+    }
+    .horizontalline{
+        width: 320px;
+     }
+}
+@media all and (min-width:810px) and (min-height: 1000px){
+
+    .hzline{
+        
+        width: 550px;
+    }
+    #border{
+        margin-left: -4.5vh;
+    }
+
+     .horizontalline{
+        width: 320px;
+     }
+     .horiz{
+        width: 510px;
+     }
+
+
+}
+@media all and (min-width:820px) and (min-height: 1150px){
+ 
+    .hzline{
+        
+        width: 550px;
+    }
+    #border{
+        margin-left: -4.5vh;
+    }
+
+     .horizontalline{
+        width: 320px;
+     }
+     .horiz{
+        width: 510px;
+     }
+
+
+}
+@media all and (min-width: 840px) and (min-height: 350px){
+
+    .hzline{
+        
+        width: 550px;
+    }
+    #border{
+        margin-left: -12vh;
+    }
+
+     .horizontalline{
+        width: 470px;
+     }
+     .horiz{
+        width: 510px;
+     }
+    
+}
+@media all and (min-width: 844px) and (min-height: 390px){
+
+    .hzline{
+        
+        width: 550px;
+    }
+    #border{
+        margin-left: -10vh;
+    }
+
+     .horizontalline{
+        width: 470px;
+     }
+     .horiz{
+        width: 510px;
+     }
+
+}
+@media all and (min-width: 840px) and (min-height: 410px){
+
+    .hzline{
+        
+        width: 550px;
+    }
+    #border{
+        margin-left: -11vh;
+    }
+
+     .horizontalline{
+        width: 320px;
+     }
+     .horiz{
+        width: 510px;
+     }
+
+}
+@media all and (min-width:840px) and (min-height:900px){
+    .horizontalline{
+        width: 320px;
+    }
+}
+@media all and (min-width: 850px) and (min-height: 470px){
+
+    .hzline{
+        
+        width: 550px;
+    }
+    #border{
+        margin-left: -11vh;
+    }
+
+     .horizontalline{
+        width: 320px;
+     }
+     .horiz{
+        width: 510px;
+     }
+
+}
+@media all and (min-width: 870px) and (min-height: 380px){
+
+    .hzline{
+        
+        width: 560px;
+    }
+    #border{
+        margin-left: -11vh;
+    }
+
+     .horizontalline{
+        width: 320px;
+     }
+     .horiz{
+        width: 510px;
+     }
+
+}
+@media all and (min-width: 880px) and (min-height: 1100px){
+    #border{
+        margin-left: -3vh;
+    }
+
+     .horizontalline{
+        width: 320px;
+     }
+     .horiz{
+        width: 510px;
+     }
+
+    .hzline{
+       
+        width: 560px;
+    }
+}
+@media all and (min-width: 890px) and (min-height: 410px){
+    #border{
+        margin-left: -8vh;
+    }
+
+     .horizontalline{
+        width: 320px;
+     }
+     .horiz{
+        width: 510px;
+     }
+
+    .hzline{
+        
+        width: 560px;
+    }
+}
+@media all and (min-width: 912px) and (min-height: 1360px){
+    #border{
+        margin-left: -2vh;
+    }
+
+     .horizontalline{
+        width: 320px;
+     }
+     .horiz{
+        width: 510px;
+     }
+
+    .hzline{
+       
+        width: 560px;
+    }
+
+}
+@media all and (min-width: 914px) and (min-height: 410px){
+
+    .hzline{
+        
+        width: 560px;
+    }
+    .horizontalline{
+        width: 320px;
+     }
+}
+@media all and (min-width: 960px) and (min-height: 600px){
+    #border{
+        margin-left: -6vh;
+    }
+
+     .horizontalline{
+        width: 320px;
+     }
+     .horiz{
+        width: 510px;
+     }
+
+
+
+    .hzline{
+        
+        width: 560px;
+    }
+}
+@media all and (min-width:1000px) and (min-height:900px){
+    .horizontalline{
+        width: 320px;
+    }
+}
+@media all and (min-width: 1024px){
+
+    .horizontalline{
+        width: 500px;
+    }
+    .horiz{
+        width: 525px;
+
+    }
+    #club{
+        height: auto;
+    }
+    .follows{
+        font-size: 16px;
+        /* margin-top: 5px; */
+    }
+}
+@media all and (min-width: 1024px) and (min-height: 600px){
+    .horizontalline{
+        width: 440px;
+    }
+
+
+    .hzline{
+        
+        width: -0px !important;
+    }
+ 
+    #border{
+        margin-left: 10vh;
+    }
+    .view{
+        font-size: 14px;
+    }
+    
+}
+@media all and (min-width: 1024px) and (min-height: 750px){
+
+    .hzline{
+        
+        width: -0px !important;
+    }
+    #border{
+        margin-left: 10vh;
+    }
+
+    
+}
+@media all and (min-width: 1024px) and (min-height: 768px){
+
+    .hzline{
+        
+        width: -0px !important;
+    }
+    #border{
+        margin-left: 8vh;
+    }
+    .gametype{
+        width: 530px;
+        margin-left: 22%;
+    }
+    
+}
+
+@media all and (min-width: 1024px) and (min-height: 850px){
+
+    .hzline{
+       
+        width: -0px !important;
+    }
+    #border{
+        margin-left: 8vh;
+    }
+    
+}
+@media all and (min-width:1020px) and (min-height:900px){
+    .horizontalline{
+        width: 450px;
+    }
+}
+@media all and (min-width: 1024px) and (min-height: 900px){
+
+    .hzline{
+       
+        width: -0px !important;
+    }
+    #border{
+        margin-left: 8vh;
+    }
+    
+}
+@media all and (min-width: 1024px) and (min-height: 950px){
+
+    .hzline{
+        
+        width: -0px !important;
+    }
+    #border{
+        margin-left: 8vh;
+    }
+    
+}
+@media all and (min-width: 1024px) and (min-height: 1360px){
+
+    .hzline{
+        
+        width: -0px !important;
+    }
+    #border{
+        margin-left: 5vh;
+    }
+
+}
+@media all and (min-width: 1024px) and (min-height:1440px){
+
+    .hzline{
+        
+        width: -0px !important;
+    }
+    #border{
+        margin-left: 5vh;
+    }
+
+}
+@media all and (min-width:1030px) and (min-height:900px){
+    .horizontalline{
+        width: 440px;
+    }
+}
+@media all and (min-width: 1080px) and (min-height: 810px){
+
+    .hzline{
+        
+        width: -0px !important;
+    }
+    #border{
+        margin-left: 7vh;
+    }
+
+}
+@media all and (min-width:1100px) and (min-height:880px){
+    .horizontalline{
+        width: 450px;
+    }
+}
+@media all and (min-width: 1130px) and (min-height: 710px){
+
+    .hzline{
+        
+        width: -0px !important;
+    }
+    #border{
+        margin-left: 8vh;
+    }
+    .gametype{
+        width: 530px;
+        margin-left: 22%;
+    }
+
+}
+@media all and (min-width: 1170px) and (min-height: 810px){
+
+    .hzline{
+        
+        width: 0px !important;
+    }
+    .horizontalline{
+        width: 450px;
+    }
+}
+@media all and (min-width: 1200px) and (min-height: 600px){
+
+    .hzline{
+       
+        width: -0px !important;
+    }
+    #border{
+        margin-left: 10vh;
+    }
+    .gametype{
+        width: 530px;
+        margin-left: 26%;
+    }
+    
+}
+@media all and (min-width:1200px) and (min-height:800px){
+
+    .hzline{
+        
+        width: 0px !important;
+    }
+  
+}
+@media all and (min-width:1280px) and (min-height:600px){
+
+    #border{
+        margin-left: 1vh;
+    }
+
+    .hzline{
+        
+        width: 0px !important;
+    }
+  
+}
+@media all and (min-width:1280px) and (min-height:710px){
+
+    #border{
+        margin-left: 0vh;
+    }
+
+    .hzline{
+       
+        width: 0px !important;
+    }
+    .horizontalline{
+        width: 600px;
+    }
+  
+}
+@media all and (min-width:1280px) and (min-height:800px){
+
+    #border{
+        margin-left: 1vh;
+    }
+
+    .hzline{
+        
+        width: 0px !important;
+    }
+  
+}
+@media all and (min-width:1280px) and (min-height:900px){
+    .horizontalline{
+        width: 570px;
+    }
+}
+@media all and (min-width:1280px) and (min-height:1024px){
+
+    #border{
+        margin-left: 0vh;
+    }
+
+    .hzline{
+        
+        width: 0px !important;
+    }
+  
+}
+@media all and (min-width:1360px) and (min-height:600px){
+    .gametype{
+        width: 530px;
+        margin-left: -7vh;
+    }
+}
+@media all and (min-width:1360px) and (min-height:630px){
+    .gametype{
+        width: 530px;
+        margin-left: -7vh;
+    }
+
+}
+@media all and (min-width:1360px) and (min-height:750px){
+    .gametype{
+        width: 530px;
+        margin-left: -5vh;
+    }
+
+}
+@media all and (min-width:1360px) and (min-height:1024px){
+    .gametype{
+        width: 530px;
+        margin-left: -7%;
+    }
+}
+@media all and (min-width:1368px) and (min-height:910px){
+
+
+    #border{
+        margin-left: 0vh;
+    }
+
+    .hzline{
+        
+        width: 0px !important;
+    }
+  
+}
+@media all and (min-width:1400px) and (min-height:900px){
+    .horizontalline{
+        width: 465px;
+    }
+}
+@media all and (min-width:1440px) and (min-height:700px){
+    .gametype{
+        width: 530px;
+        margin-left: -0vh;
+    }
+
+}
+@media all and (min-width:1440px) and (min-height:750px){
+    .gametype{
+        width: 530px;
+        margin-left: -0vh;
+    }
+
+}
+@media all and (min-width:1440px) and (min-height:830px){
+    .gametype{
+        width: 530px;
+        margin-left: -0vh;
+    }
+
+}
+@media all and (min-width:1440px) and (min-height:900px){
+    .gametype{
+        width: 530px;
+        margin-left: -0vh;
+    }
+
+}
+@media all and (min-width:1500px) and (min-height:900px){
+
+  
+    .horizontalline{
+        width: 465px;
+    }
+
+}
+@media all and (min-width:1500px) and (min-height:1000px){
+
+    #border{
+        margin-left: 0vh;
+    }
+
+    .hzline{
+        
+        width: 0px !important;
+    }
+  
+    .horizontalline{
+        width: 500px;
+    }
+    .horiz{
+        width: 525px;
+    }
+}
+@media all and (min-width:1510px) and (min-height:900px){
+
+    #border{
+        margin-left: 0vh;
+    }
+
+    .hzline{
+       
+        width: 0px !important;
+    }
+  
+    .horizontalline{
+        width: 470px;
+    }
+    .horiz{
+        width: 525px;
+    }
+}
+@media all and (min-width:1536px) and (min-height:860px){
+
+    #border{
+        margin-left: -8vh;
+    }
+
+    .hzline{
+        
+        width: 0px !important;
+    }
+  
+}
+@media all and (min-width:1669px) and (min-height:930px){
+
+    #border{
+        margin-left: -7vh;
+    }
+
+    .hzline{
+        
+        width: 0px !important;
+    }
+  
+    .horizontalline{
+        width: 570px;
+    }
+    .horiz{
+        width: 525px;
+    }
+}
+@media all and (min-width:1920px) and (min-height:960px){
+
+    #border{
+        margin-left: -7vh;
+    }
+    .hzline{
+        
+        width: 0px !important;
+    }
+}
+@media all and (min-width:1921px) and (min-height:930px){
+
+    #border{
+        margin-left: -7vh;
+    }
+    .hzline{
+       
+        width: 0px !important;
+    }
+}
+@media all and (min-width:1920px) and (min-height:1080px){
+
+    #border{
+        margin-left: -6.5vh;
+    }
+    .hzline{
+        
+        width: 0px !important;
+    }
+
+}
+@media all and (min-width:1921px) and (min-height:1080px){
+
+    #border{
+        margin-left: -6.5vh;
+    }
+    .hzline{
+        
+        width: 0px !important;
+    }
+
+}
+@media all and (min-width:2560px) and (min-height:1440px){
+ 
+    #border{
+        margin-left: -4vh;
+    }
+    .hzline{
+      
+        width: 0px !important;
+    }
+
+
+}

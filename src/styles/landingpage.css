@@ -1,0 +1,1696 @@
+@media only screen and (min-width:280px) and (max-height:700px) {
+
+        #football img {
+            margin-top: 1px;
+        }
+    .sunday{
+        font-size: 10px;
+    }
+    #playernumbers{
+        width: fit-content;
+    }
+        #playernumbers .number {
+            margin-top: -0.8px;
+        }
+    
+        #hourlyrupee .number {
+            margin-top: -0.8px;
+        }
+    
+        #hourlyrupee img {
+            margin-top: -0.1px;
+        }
+    
+        .personincon {
+            margin-top: 0vh;
+        }
+    
+        #progress {
+            height: 8px;
+            /* margin-top: 12px; */
+        }
+    
+
+        .topplayer {
+            font-size: 12px;
+            line-height: 24px;
+        }
+    
+        .gamename {
+            font-size: 12px;
+            line-height: 24px;
+        }
+    
+        .day {
+            font-size: 14px;
+        }
+    
+        #football {
+            font-family: "Nexa-Bold";
+            font-size: 10px;
+            letter-spacing: 0.3em;
+            width: 45.5px;
+            height: 27px;
+        }
+    
+        #football img {
+            transform: scale(0.8);
+            margin-top: -0.5vh;
+        }
+    
+        #playernumbers {
+            border-radius: 33px;
+            font-size: 10px;
+            letter-spacing: 0.1em;
+            width: fit-content;
+            height: 27px
+        }
+    
+        #hourlyrupee {
+            border-radius: 33px;
+            font-size: 10px;
+            width: 77px;
+            height: 28px;
+        }
+    
+        .rounded-md {
+            transform: scale(0.7);
+        }
+    
+        .numberofperson {
+            font-size: 15px;
+        }
+
+        .place {
+            font-size: 14px;
+        }
+    
+        #locator {
+            transform: scale(0.85);
+        }
+    
+        #pitchtype {
+            border-radius: 20px;
+            letter-spacing: 0.1em;
+            font-size: 16px;
+        }
+    
+        #bookedkey {
+            font-size: 12px;
+        }
+    
+        #privatekey {
+            font-size: 12px;
+        }
+    
+    }
+@media all and (min-width:320px) and (min-height:470px){
+ 
+    .sunday {
+        font-size: 12px;
+    }
+
+    .topplayer {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .gamename {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .day {
+        font-size: 14px;
+    }
+
+    #football {
+        font-family: "Nexa-Bold";
+        font-size: 13px;
+        letter-spacing: 0.3em;
+        width: 45.5px;
+        height: 30px;
+    }
+
+    #venue {
+        transform: scaleX(1);
+
+    }
+    #playernumbers {
+        border-radius: 33px;
+        font-size: 12px;
+        letter-spacing: 0px;
+        width: fit-content;
+        height: 30px
+    }
+
+    #hourlyrupee {
+        border-radius: 33px;
+        font-size: 13px;
+        width: 87px;
+        height: 30px
+    }
+
+    .rounded-md {
+        transform: scale(0.8);
+    }
+
+    #locator {
+        transform: scale(0.9);
+    }
+
+    .numberofperson {
+        font-size: 15px;
+    }
+
+    .place {
+        font-size: 15px;
+    }
+
+    #pitchtype {
+        border-radius: 20px;
+        letter-spacing: 0.1em;
+        font-size: 12px;
+    }
+
+    #bookedkey {
+        font-size: 14px;
+    }
+
+    #privatekey {
+        font-size: 14px;
+    }
+    .footercontent{
+        font-size: 13px;
+        line-height: 23px;
+    }
+}
+@media all and (min-width:320px) and (min-height:560px){
+
+    .sunday {
+        font-size: 12px;
+    }
+
+    .topplayer {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .gamename {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .day {
+        font-size: 14px;
+    }
+
+    #football {
+        font-family: "Nexa-Bold";
+        font-size: 13px;
+        letter-spacing: 0.3em;
+        width: 45.5px;
+        height: 30px;
+    }
+
+
+
+
+    #playernumbers {
+        border-radius: 33px;
+        font-size: 12px;
+        letter-spacing: 0px;
+        width: fit-content;
+        height: 30px
+    }
+
+    #hourlyrupee {
+        border-radius: 33px;
+        font-size: 13px;
+        width: 87px;
+        height: 30px
+    }
+
+    .rounded-md {
+        transform: scale(0.8);
+    }
+
+    #locator {
+        transform: scale(0.9);
+    }
+
+    .numberofperson {
+        font-size: 15px;
+    }
+
+
+    .place {
+        font-size: 15px;
+    }
+
+    #pitchtype {
+        border-radius: 20px;
+        letter-spacing: 0.1em;
+        font-size: 12px;
+    }
+
+    #bookedkey {
+        font-size: 14px;
+    }
+
+    #privatekey {
+        font-size: 14px;
+    }
+    .footercontent{
+        font-size: 13px;
+        line-height: 23px;
+    }
+}
+@media all and (min-width:345px) and (min-height:630px){
+
+    #football img {
+        margin-top: -0.2px;
+    }
+#playernumbers{
+    width: fit-content;
+}
+    #playernumbers .number {
+        margin-top: -0.8px;
+    }
+
+    #hourlyrupee .number {
+        margin-top: -0.8px;
+    }
+
+    #hourlyrupee img {
+        margin-top: -0.1px;
+    }
+
+    .personincon {
+        margin-top: 0.2vh;
+    }
+
+    #progress {
+        height: 8px;
+        /* margin-top: 12px; */
+    }
+    .sunday {
+        font-size: 14px;
+    }
+
+    .topplayer {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .gamename {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .day {
+        font-size: 14px;
+    }
+
+    #football {
+        font-family: "Nexa-Bold";
+        font-size: 13px;
+        letter-spacing: 0.3em;
+        width: 45.5px;
+        height: 30px;
+    }
+
+    #playernumbers {
+        border-radius: 33px;
+        font-size: 13px;
+        letter-spacing: 0.1em;
+        width: fit-content;
+        height: 30px
+    }
+
+    #hourlyrupee {
+        border-radius: 33px;
+        font-size: 13px;
+        width: 87px;
+        height: 30px
+    }
+
+    .rounded-md {
+        transform: scale(0.8);
+    }
+
+    .numberofperson {
+        font-size: 15px;
+    }
+
+    .place {
+        font-size: 15px;
+    }
+
+    #pitchtype {
+        border-radius: 20px;
+        letter-spacing: 0.1em;
+        font-size: 12px;
+    }
+
+    #bookedkey {
+        font-size: 14px;
+    }
+
+    #privatekey {
+        font-size: 14px;
+    }
+
+}
+@media all and (min-width:350px) and (min-height:620px){
+
+
+    #football img {
+        margin-top: -0.2px;
+    }
+#playernumbers{
+    width: fit-content;
+}
+    #playernumbers .number {
+        margin-top: -0.8px;
+    }
+
+    #hourlyrupee .number {
+        margin-top: -0.8px;
+    }
+
+    #hourlyrupee img {
+        margin-top: -0.1px;
+    }
+
+    .personincon {
+        margin-top: 0.2vh;
+    }
+
+    #progress {
+        height: 8px;
+        /* margin-top: 12px; */
+    }
+    .sunday {
+        font-size: 14px;
+    }
+
+    .topplayer {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .gamename {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .day {
+        font-size: 14px;
+    }
+
+    #football {
+        font-family: "Nexa-Bold";
+        font-size: 13px;
+        letter-spacing: 0.3em;
+        width: 45.5px;
+        height: 30px;
+    }
+
+    #playernumbers {
+        border-radius: 33px;
+        font-size: 13px;
+        letter-spacing: 0.1em;
+        width: fit-content;
+        height: 30px
+    }
+
+    #hourlyrupee {
+        border-radius: 33px;
+        font-size: 13px;
+        width: 87px;
+        height: 30px
+    }
+
+    .rounded-md {
+        transform: scale(0.8);
+    }
+
+    .numberofperson {
+        font-size: 15px;
+    }
+
+
+    .place {
+        font-size: 15px;
+    }
+
+    #pitchtype {
+        border-radius: 20px;
+        letter-spacing: 0.1em;
+        font-size: 12px;
+    }
+
+    #bookedkey {
+        font-size: 14px;
+    }
+
+    #privatekey {
+        font-size: 14px;
+    }
+
+}
+@media all and (min-width:353px) and (min-height:640px){
+
+
+    #football img {
+        margin-top: -0.2px;
+    }
+#playernumbers{
+    width: fit-content;
+}
+    #playernumbers .number {
+        margin-top: -0.8px;
+    }
+
+    #hourlyrupee .number {
+        margin-top: -0.8px;
+    }
+
+    #hourlyrupee img {
+        margin-top: -0.1px;
+    }
+
+    .personincon {
+        margin-top: 0.2vh;
+    }
+
+    #progress {
+        height: 8px;
+        /* margin-top: 12px; */
+    }
+    .sunday {
+        font-size: 14px;
+    }
+
+    .topplayer {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .gamename {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .day {
+        font-size: 14px;
+    }
+
+    #football {
+        font-family: "Nexa-Bold";
+        font-size: 13px;
+        letter-spacing: 0.3em;
+        width: 45.5px;
+        height: 30px;
+    }
+
+    #playernumbers {
+        border-radius: 33px;
+        font-size: 13px;
+        letter-spacing: 0.1em;
+        width: fit-content;
+        height: 30px
+    }
+
+    #hourlyrupee {
+        border-radius: 33px;
+        font-size: 13px;
+        width: 87px;
+        height: 30px
+    }
+
+    .rounded-md {
+        transform: scale(0.8);
+    }
+
+    .numberofperson {
+        font-size: 15px;
+    }
+
+
+    .place {
+        font-size: 15px;
+    }
+
+    #pitchtype {
+        border-radius: 20px;
+        letter-spacing: 0.1em;
+        font-size: 12px;
+    }
+
+    #bookedkey {
+        font-size: 14px;
+    }
+
+    #privatekey {
+        font-size: 14px;
+    }
+
+}
+@media all and (min-width:350px) and (min-height:720px){
+
+
+    #football img {
+        margin-top: -0.2px;
+    }
+#playernumbers{
+    width: fit-content;
+}
+    #playernumbers .number {
+        margin-top: -0.8px;
+    }
+
+    #hourlyrupee .number {
+        margin-top: -0.8px;
+    }
+
+    #hourlyrupee img {
+        margin-top: -0.1px;
+    }
+
+    .personincon {
+        margin-top: 0.2vh;
+    }
+
+    #progress {
+        height: 8px;
+        /* margin-top: 12px; */
+    }
+    .sunday {
+        font-size: 14px;
+    }
+
+    .topplayer {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .gamename {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .day {
+        font-size: 14px;
+    }
+
+    #football {
+        font-family: "Nexa-Bold";
+        font-size: 13px;
+        letter-spacing: 0.3em;
+        width: 45.5px;
+        height: 30px;
+    }
+    #playernumbers {
+        border-radius: 33px;
+        font-size: 13px;
+        letter-spacing: 0.1em;
+        width: fit-content;
+        height: 30px
+    }
+
+    #hourlyrupee {
+        border-radius: 33px;
+        font-size: 13px;
+        width: 87px;
+        height: 30px
+    }
+
+    .rounded-md {
+        transform: scale(0.8);
+    }
+
+    .numberofperson {
+        font-size: 15px;
+    }
+
+
+    .place {
+        font-size: 15px;
+    }
+
+    #pitchtype {
+        border-radius: 20px;
+        letter-spacing: 0.1em;
+        font-size: 12px;
+    }
+
+    #bookedkey {
+        font-size: 14px;
+    }
+
+    #privatekey {
+        font-size: 14px;
+    }
+
+}
+@media all and (min-width:350px) and (min-height:800px){
+  
+    #football img {
+        margin-top: -0.2px;
+    }
+#playernumbers{
+    width: fit-content;
+}
+    #playernumbers .number {
+        margin-top: -0.8px;
+    }
+
+    #hourlyrupee .number {
+        margin-top: -0.8px;
+    }
+
+    #hourlyrupee img {
+        margin-top: -0.1px;
+    }
+
+    .personincon {
+        margin-top: 0.2vh;
+    }
+
+    #progress {
+        height: 8px;
+        /* margin-top: 12px; */
+    }
+    .sunday {
+        font-size: 14px;
+    }
+
+    .topplayer {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .gamename {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .day {
+        font-size: 14px;
+    }
+
+    #football {
+        font-family: "Nexa-Bold";
+        font-size: 13px;
+        letter-spacing: 0.3em;
+        width: 45.5px;
+        height: 30px;
+    }
+
+    #playernumbers {
+        border-radius: 33px;
+        font-size: 13px;
+        letter-spacing: 0.1em;
+        width: fit-content;
+        height: 30px
+    }
+
+    #hourlyrupee {
+        border-radius: 33px;
+        font-size: 13px;
+        width: 87px;
+        height: 30px
+    }
+
+    .rounded-md {
+        transform: scale(0.8);
+    }
+
+    .numberofperson {
+        font-size: 15px;
+    }
+
+
+    .place {
+        font-size: 15px;
+    }
+
+    #pitchtype {
+        border-radius: 20px;
+        letter-spacing: 0.1em;
+        font-size: 12px;
+    }
+
+    #bookedkey {
+        font-size: 14px;
+    }
+
+    #privatekey {
+        font-size: 14px;
+    }
+ 
+}
+@media all and (min-width:375px) and (min-height:650px){
+ 
+    .topplayer {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .gamename {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .day {
+        font-size: 15px;
+    }
+
+
+    #football {
+        font-family: "Nexa-Bold";
+        font-size: 14px;
+        letter-spacing: 0.3em;
+        width: 45.5px;
+        height: 30px;
+    }
+
+    #playernumbers {
+        border-radius: 33px;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        width: fit-content;
+        height: 30px
+    }
+
+    #hourlyrupee {
+        border-radius: 33px;
+        font-size: 14px;
+        width: 90px;
+        height: 30px
+    }
+
+    .rounded-md {
+        transform: scale(0.8);
+    }
+
+    .numberofperson {
+        font-size: 16px;
+    }
+
+
+    .place {
+        font-size: 15px;
+    }
+
+    #pitchtype {
+        border-radius: 20px;
+        letter-spacing: 0.1em;
+        font-size: 14px;
+    }
+
+    #bookedkey {
+        font-size: 14px;
+    }
+
+    #privatekey {
+        font-size: 14px;
+    }
+}
+
+@media all and (min-width:480px) and (min-height:310px) {
+   
+    .sunday {
+        font-size: 12px;
+    }
+
+    .topplayer {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .gamename {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .day {
+        font-size: 14px;
+    }
+
+
+    #football {
+        font-family: "Nexa-Bold";
+        font-size: 13px;
+        letter-spacing: 0.3em;
+        width: 45.5px;
+        height: 30px;
+    }
+
+
+    #playernumbers {
+        border-radius: 33px;
+        font-size: 12px;
+        letter-spacing: 0px;
+        width: fit-content;
+        height: 30px
+    }
+
+    #hourlyrupee {
+        border-radius: 33px;
+        font-size: 13px;
+        width: 87px;
+        height: 30px
+    }
+
+    .rounded-md {
+        transform: scale(0.8);
+    }
+
+    #locator {
+        transform: scale(0.9);
+    }
+
+    .numberofperson {
+        font-size: 15px;
+    }
+    .place {
+        font-size: 15px;
+    }
+
+    #pitchtype {
+        border-radius: 20px;
+        letter-spacing: 0.1em;
+        font-size: 12px;
+    }
+
+    #bookedkey {
+        font-size: 14px;
+    }
+
+    #privatekey {
+        font-size: 14px;
+    }
+    .footercontent{
+        font-size: 13px;
+        line-height: 23px;
+    }
+        
+}
+@media all and (min-width:480px) and (min-height:850px) {
+   
+    .sunday {
+        font-size: 12px;
+    }
+
+    .topplayer {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .gamename {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .day {
+        font-size: 14px;
+    }
+
+
+    #football {
+        font-family: "Nexa-Bold";
+        font-size: 13px;
+        letter-spacing: 0.3em;
+        width: 45.5px;
+        height: 30px;
+    }
+
+
+
+    #playernumbers {
+        border-radius: 33px;
+        font-size: 12px;
+        letter-spacing: 0px;
+        width: fit-content;
+        height: 30px
+    }
+
+    #hourlyrupee {
+        border-radius: 33px;
+        font-size: 13px;
+        width: 87px;
+        height: 30px
+    }
+
+    .rounded-md {
+        transform: scale(0.8);
+    }
+
+    #locator {
+        transform: scale(0.9);
+    }
+
+    .numberofperson {
+        font-size: 15px;
+    }
+
+    .place {
+        font-size: 15px;
+    }
+
+    #pitchtype {
+        border-radius: 20px;
+        letter-spacing: 0.1em;
+        font-size: 12px;
+    }
+
+    #bookedkey {
+        font-size: 14px;
+    }
+
+    #privatekey {
+        font-size: 14px;
+    }
+    .footercontent{
+        font-size: 13px;
+        line-height: 23px;
+    }
+            
+}
+@media all and (min-width:530px) and (min-height:700px) {
+
+    .overall .Logo{
+        margin-left: -1vh;
+    }
+}
+
+@media all and (min-width:620px) and (min-height:340px){
+  
+
+    .topplayer {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .gamename {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .day {
+        font-size: 15px;
+    }
+
+
+    #football {
+        font-family: "Nexa-Bold";
+        font-size: 14px;
+        letter-spacing: 0.3em;
+        width: 45.5px;
+        height: 30px;
+    }
+
+    #playernumbers {
+        border-radius: 33px;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        width: fit-content;
+        height: 30px
+    }
+
+    #hourlyrupee {
+        border-radius: 33px;
+        font-size: 14px;
+        width: 90px;
+        height: 30px
+    }
+
+    .rounded-md {
+        transform: scale(0.8);
+    }
+
+    .numberofperson {
+        font-size: 16px;
+    }
+
+    .place {
+        font-size: 15px;
+    }
+
+    #pitchtype {
+        border-radius: 20px;
+        letter-spacing: 0.1em;
+        font-size: 14px;
+    }
+
+    #bookedkey {
+        font-size: 14px;
+    }
+
+    #privatekey {
+        font-size: 14px;
+    }
+}
+@media all and (min-width:640px) and (min-height:340px){
+   
+
+
+    .topplayer {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .gamename {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .day {
+        font-size: 15px;
+    }
+
+
+    #football {
+        font-family: "Nexa-Bold";
+        font-size: 14px;
+        letter-spacing: 0.3em;
+        width: 45.5px;
+        height: 30px;
+    }
+
+    #playernumbers {
+        border-radius: 33px;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        width: fit-content;
+        height: 30px
+    }
+
+    #hourlyrupee {
+        border-radius: 33px;
+        font-size: 14px;
+        width: 90px;
+        height: 30px
+    }
+
+    .rounded-md {
+        transform: scale(0.8);
+    }
+
+    .numberofperson {
+        font-size: 16px;
+    }
+
+
+
+    .place {
+        font-size: 15px;
+    }
+
+    #pitchtype {
+        border-radius: 20px;
+        letter-spacing: 0.1em;
+        font-size: 14px;
+    }
+
+    #bookedkey {
+        font-size: 14px;
+    }
+
+    #privatekey {
+        font-size: 14px;
+    }
+}
+
+
+
+
+@media all and (min-width:840px) and (min-height:385px){
+
+    #football img {
+        margin-top: -0.8px;
+    }
+
+    #playernumbers .number {
+        margin-top: -2.8px;
+  
+    }
+    #playernumbers{
+        letter-spacing: 0.1em;
+        width: fit-content;
+    }
+
+    #hourlyrupee .number {
+        margin-top: -2.8px;
+    }
+
+    #hourlyrupee img {
+        margin-top: -1px;
+    }
+
+    #progress {
+        height: 8px;
+        /* margin-top: 13px; */
+    }
+
+}
+
+@media all and (min-width:840px) and (min-height:385px){
+    #joinbutton {
+        width: 323px;
+        height: 48px;
+        margin-left: 53vh;
+    }
+
+    #football img {
+        margin-top: -0.8px;
+    }
+
+    #playernumbers .number {
+        margin-top: -2.8px;
+  
+    }
+    #playernumbers{
+        letter-spacing: 0.1em;
+        width: fit-content;
+    }
+
+    #hourlyrupee .number {
+        margin-top: -2.8px;
+    }
+
+    #hourlyrupee img {
+        margin-top: -1px;
+    }
+
+    #progress {
+        height: 8px;
+        /* margin-top: 13px; */
+    }
+
+
+}
+
+@media all and (min-width:840px) and (min-height:410px){
+
+    #football img {
+        margin-top: -0.8px;
+    }
+
+    #playernumbers .number {
+        margin-top: -2.8px;
+  
+    }
+    #playernumbers{
+        letter-spacing: 0.1em;
+        width: fit-content;
+    }
+
+    #hourlyrupee .number {
+        margin-top: -2.8px;
+    }
+
+    #hourlyrupee img {
+        margin-top: -1px;
+    }
+
+    #progress {
+        height: 8px;
+        /* margin-top: 13px; */
+    }
+
+
+}
+@media all and (min-width:850px) and (min-height:385px){
+
+
+    #football img {
+        margin-top: -0.8px;
+    }
+
+    #playernumbers .number {
+        margin-top: -2.8px;
+  
+    }
+    #playernumbers{
+        letter-spacing: 0.1em;
+        width: fit-content;
+    }
+
+    #hourlyrupee .number {
+        margin-top: -2.8px;
+    }
+
+    #hourlyrupee img {
+        margin-top: -1px;
+    }
+
+    #progress {
+        height: 8px;
+        /* margin-top: 13px; */
+    }
+
+
+}
+@media all and (min-width:850px) and (min-height:470px){
+
+    #football img {
+        margin-top: -0.8px;
+    }
+
+    #playernumbers .number {
+        margin-top: -2.8px;
+  
+    }
+    #playernumbers{
+        letter-spacing: 0.1em;
+        width: fit-content;
+    }
+
+    #hourlyrupee .number {
+        margin-top: -2.8px;
+    }
+
+    #hourlyrupee img {
+        margin-top: -1px;
+    }
+
+    #progress {
+        height: 8px;
+        /* margin-top: 13px; */
+    }
+
+
+}
+@media all and (min-width:870px) and (min-height:390px){
+
+    #football img {
+        margin-top: -0.8px;
+    }
+
+    #playernumbers .number {
+        margin-top: -2.8px;
+  
+    }
+    #playernumbers{
+        letter-spacing: 0.1em;
+        width: fit-content;
+    }
+
+    #hourlyrupee .number {
+        margin-top: -2.8px;
+    }
+
+    #hourlyrupee img {
+        margin-top: -1px;
+    }
+
+    #progress {
+        height: 8px;
+        /* margin-top: 13px; */
+    }
+
+}
+@media all and (min-width:880px) and (min-height:1100px){
+
+    #football img {
+        margin-top: -0.8px;
+    }
+
+    #playernumbers .number {
+        margin-top: -2.8px;
+  
+    }
+    #playernumbers{
+        letter-spacing: 0.1em;
+        width: fit-content;
+    }
+
+    #hourlyrupee .number {
+        margin-top: -2.8px;
+    }
+
+    #hourlyrupee img {
+        margin-top: -1px;
+    }
+
+    #progress {
+        height: 8px;
+        /* margin-top: 13px; */
+    }
+
+}
+@media all and (min-width:890px) and (min-height:410px) {
+
+
+    #playernumbers{
+        width: fit-content;
+    }
+}
+@media all and (min-width:896px) and (min-height:410px) {
+
+    #playernumbers{
+        width: fit-content;
+    }
+}
+
+@media all and (min-width:910px) and (min-height:410px) {
+
+    #playernumbers{
+        width: fit-content;
+    }
+}
+@media all and (min-width:910px) and (min-height:1350px){
+
+
+}
+@media all and (min-width:915px) and (min-height:410px) {
+
+
+    #playernumbers{
+        width: fit-content;
+    }
+}
+@media all and (min-width:960px) and (min-height:600px){
+
+
+}
+
+/* joinbutton css */
+
+@media all and (min-width:400px){
+    #playernumbers{
+        width: fit-content;
+    }
+}
+@media all and (min-width:1000px){
+    #sticky{
+        display: none;
+    }
+
+}
+
+@media all and (min-width:1669px) and (max-height:1100px) {
+
+    /* #doubletriple {
+        margin-left: 7.3vh;
+    } */
+
+    #football {
+        width: 60px;
+    }
+
+    #football img {
+        margin-left: 0.8vh;
+    }
+
+    #playernumbers {
+        width: fit-content;
+    }
+
+    #hourlyrupee {
+        width: 100px;
+    }
+
+    #hourlyrupee p {
+        margin-left: 0.6vh;
+    }
+   
+        #footerbackground{
+         margin-left: 8vh;
+        }
+   
+
+}
+
+@media all and (width:1920px) and (min-height:930px) {
+
+    /* #doubletriple {
+        margin-left: 8.3vh;
+    } */
+
+    #football {
+        width: 60px;
+    }
+
+    #football img {
+        margin-left: 0.8vh;
+    }
+
+    #playernumbers {
+        width: fit-content;
+    }
+
+    #hourlyrupee {
+        width: 90px;
+    }
+
+    #hourlyrupee p {
+        margin-left: -0.12vh;
+    }
+
+}
+
+@media all and (min-width:1920px) and (min-height:950px){
+    #footerbackground{
+        margin-top: -1px;
+        margin-left: 0vh;
+    }
+}
+
+/*media queries*/
+
+
+
+
+@media all and (min-width:1669px) and (min-height:950px) {
+
+
+
+    #football {
+        width: 60px;
+    }
+
+    #football img {
+        margin-left: 0.8vh;
+    }
+
+    #playernumbers {
+        width: fit-content;
+    }
+
+    #hourlyrupee {
+        width: 100px;
+    }
+
+    #hourlyrupee p {
+        margin-left: 0.6vh;
+    }
+
+}
+@media all and (min-width:1700px) and (min-height:820px) {
+
+
+    #football {
+        width: 60px;
+    }
+
+    #football img {
+        margin-left: 0.8vh;
+    }
+
+    #playernumbers {
+        width: fit-content;
+    }
+
+    #hourlyrupee {
+        width: 100px;
+    }
+
+    #hourlyrupee p {
+        margin-left: 0.6vh;
+    }
+
+}
+@media all and (min-width:1889px) and (min-height:930px) {
+
+
+    #football {
+        width: 60px;
+    }
+
+    #football img {
+        margin-left: 0.8vh;
+    }
+
+    #playernumbers {
+        width: fit-content;
+    }
+
+    #hourlyrupee {
+        width: 100px;
+    }
+
+    #hourlyrupee p {
+        margin-left: 0.6vh;
+    }
+
+}
+@media all and (min-width:1920px) and (min-height:930px) {
+
+
+    #football {
+        width: 60px;
+    }
+
+    #football img {
+        margin-left: 0.8vh;
+    }
+
+    #playernumbers {
+        width: fit-content;
+    }
+
+    #hourlyrupee {
+        width: 100px;
+    }
+
+    #hourlyrupee p {
+        margin-left: 0.6vh;
+    }
+
+}
+@media all and (min-width:1920px) and (min-height:960px) {
+
+
+    #football {
+        width: 60px;
+    }
+
+    #football img {
+        margin-left: 0.8vh;
+    }
+
+    #playernumbers {
+        width: fit-content;
+    }
+
+    #hourlyrupee {
+        width: 100px;
+    }
+
+    #hourlyrupee p {
+        margin-left: 0.6vh;
+    }
+
+}
+@media all and (min-width:1920px) and (min-height:1080px) {
+   
+
+    #football {
+        width: 60px;
+    }
+
+    #football img {
+        margin-left: 0.8vh;
+    }
+
+    #playernumbers {
+        width: fit-content;
+    }
+
+    #hourlyrupee {
+        width: 100px;
+    }
+
+    #hourlyrupee p {
+        margin-left: 0.6vh;
+    }
+
+}
+@media all and (min-width:1921px) and (min-height:930px) {
+
+
+    #football {
+        width: 60px;
+    }
+
+    #football img {
+        margin-left: 0.8vh;
+    }
+
+    #playernumbers {
+        width: fit-content;
+    }
+
+    #hourlyrupee {
+        width: 100px;
+    }
+
+    #hourlyrupee p {
+        margin-left: 0.6vh;
+    }
+
+}
+@media all and (min-width:2500px) and (min-height:1440px) {
+
+    #locator {
+        transform: scale(1);
+    }
+
+    #football {
+        width: 60px;
+    }
+
+    #football img {
+        margin-left: 0.8vh;
+    }
+
+    #playernumbers {
+        width: fit-content;
+    }
+
+    #hourlyrupee {
+        width: 100px;
+    }
+
+    #hourlyrupee p {
+        margin-left: 0.6vh;
+    }
+    .backgrounds{
+        height: 100%;
+    }
+}
+@media all and (min-width:2500px) and (min-height:1600px) {
+
+
+    #locator {
+        transform: scale(1);
+    }
+
+    #football {
+        width: 60px;
+    }
+
+    #football img {
+        margin-left: 0.8vh;
+    }
+
+    #playernumbers {
+        width: fit-content;
+    }
+
+    #hourlyrupee {
+        width: 100px;
+    }
+
+    #hourlyrupee p {
+        margin-left: 0.6vh;
+    }
+
+}
+
+

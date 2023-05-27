@@ -1,0 +1,45 @@
+@import '../../styles/base/global';
+
+.container {
+    min-height: 100vh;
+    @include container;
+
+    .subText {
+        font-family: 'Nexa-TextRegular';
+        font-size: 0.938rem;
+        color: $White2;
+        margin: 0;
+    }
+
+    .image_wrapper {
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .circle {
+        width: 8.25rem;
+        height: 8.25rem;
+        border-radius: 4.15rem;
+        background: $Seperator;
+        @include row-center;
+    }
+
+    .cricular_image {
+        width: 8.25rem;
+        height: 8.25rem;
+        border-radius: 4.15rem;
+        overflow: hidden;
+    }
+
+    .bottom_button_wrapper {
+        width: 100%;
+        max-width: 600rem;
+        margin-top: 12rem;
+        bottom: 2.75rem;
+        @include row-center;
+        justify-content: flex-end;
+        padding: 0 1.5rem;
+    }
+}

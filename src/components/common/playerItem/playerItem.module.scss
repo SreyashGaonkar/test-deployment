@@ -1,0 +1,51 @@
+@import '../../../styles/base/global';
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    .left {
+        //  margin-right: 0.563rem;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image {
+        border-radius: 1.563rem;
+        //margin-right: 0.75rem;
+    }
+
+    .rating {
+        font-family: 'Nexa-TextBold';
+        color: #989a9e;
+        font-size: 0.938rem;
+    }
+
+    .position {
+        font-family: 'Nexa-TextRegular';
+        color: $Blue2;
+        font-size: 0.938rem;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.625rem
+    }
+
+    .star {
+        margin-top: -3.5px;
+    }
+
+    .cricle_icon {
+        margin-top: 2.5px;
+    }
+
+
+}

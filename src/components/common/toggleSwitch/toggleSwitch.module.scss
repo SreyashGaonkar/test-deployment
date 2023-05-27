@@ -1,0 +1,32 @@
+@import "../../../styles/base/global";
+
+.container {
+
+    width: 3.125rem;
+    height: 1.563rem;
+    border-radius: 4.063rem;
+    border: 1px solid $ToggleBorder;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.25rem;
+    transition: all 0.4s ease;
+
+    .toggle_switch {
+        width: 1.063rem;
+        height: 1.063rem;
+        border-radius: 0.563rem;
+        background: $ToggleBorder;
+    }
+
+
+
+}
+
+.flex_start {
+    justify-content: flex-start;
+}
+
+.flex_end {
+    justify-content: flex-end;
+}

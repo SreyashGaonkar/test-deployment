@@ -1,0 +1,754 @@
+@import 'colors';
+@import 'fonts';
+@import 'sizes';
+@import 'mixin';
+
+.App {
+    height: auto;
+    width: 100%;
+    padding: 0 1rem;
+    background-color: $Background;
+    max-width: 37.5rem;
+    min-width: 24rem;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.App1 {
+    height: auto;
+    width: 100%;
+    padding: 0 1rem;
+    background-color: $Background;
+    // max-width: 37.5rem;
+    min-width: 24rem;
+    margin: auto;
+    position: relative;
+}
+
+// text
+.large_title {
+    font-family: 'Nexa-ExtraBold';
+    font-size: 1.438rem;
+    // color: $White1;
+    margin: 0;
+}
+
+.title_1 {
+    font-family: 'Nexa-ExtraBold';
+    font-size: 1.313rem;
+    // color: $White1;
+    margin: 0;
+}
+
+.title_2 {
+    font-family: 'Nexa-Bold';
+    font-size: 1.188rem;
+    // color: $White1;
+    margin: 0;
+}
+
+.title_3 {
+    font-family: 'Nexa-ExtraBold';
+    font-size: 1rem;
+    // color: $White1;
+    margin: 0;
+}
+
+.title_4 {
+    font-family: 'Nexa-Regular';
+    font-size: 1.313rem;
+    // color: $White1;
+    margin: 0;
+}
+
+.headline {
+    font-family: 'Nexa-Bold';
+    font-size: 1rem;
+    // color: $White1;
+    margin: 0;
+}
+
+.sub {
+    font-family: 'Nexa-Regular';
+    font-size: 1rem;
+    // color: $White1;
+    margin: 0;
+}
+
+.sub_2 {
+    font-family: 'Nexa-Regular';
+    font-size: 0.875rem;
+    // color: $White1;
+    margin: 0;
+}
+
+.sub_3 {
+    font-family: 'Nexa-TextRegular';
+    font-size: 0.938rem;
+    margin: 0;
+}
+
+.Body {
+    font-family: 'Nexa-TextRegular';
+    font-size: 1rem;
+    // color: $White1;
+    margin: 0;
+}
+
+.card_text {
+    font-family: 'Nexa-TextBold';
+    font-size: 0.938rem;
+    // color: $White1;
+    margin: 0;
+}
+
+.card_text_2 {
+    font-family: 'Nexa-TextBold';
+    font-size: 1rem;
+    // color: $White1;
+    margin: 0;
+}
+
+.caption_2 {
+    font-family: 'Nexa-TextBold';
+    font-size: 0.875rem;
+    // color: $White1;
+    margin: 0;
+}
+
+.caption {
+    font-family: 'Nexa-TextRegular';
+    font-size: 1rem;
+    // color: $White1;
+    margin: 0;
+}
+
+.caption_2 {
+    font-family: 'Nexa-TextRegular';
+    font-size: 0.875rem;
+    // color: $White1;
+    margin: 0;
+}
+
+.button_1 {
+    font-family: 'Nexa-ExtraBold';
+    font-size: 1rem;
+    line-height: 1.5rem;
+    // color: $White1;
+    margin: 0;
+}
+
+.button_2 {
+    font-family: 'Nexa-ExtraBold';
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+    // color: $White1;
+    margin: 0;
+}
+
+.button_3 {
+    font-family: 'Nexa-TextExtraBold';
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+    // color: $White1;
+    margin: 0;
+}
+
+.chip_1 {
+    font-family: 'Nexa-Bold';
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+    // color: $White1;
+    margin: 0;
+}
+
+.chip_2 {
+    font-family: 'Nexa-TextExtraBold';
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+    // color: $White1;
+    margin: 0;
+}
+
+.chip_3 {
+    font-family: 'Nexa-ExtraBold';
+    font-size: 0.625rem;
+    line-height: 0.938rem;
+    // color: $White1;
+    margin: 0;
+}
+
+.borderBottom {
+    border-bottom: 1px solid $Seperator;
+
+}
+
+.borderTop {
+    border-top: 1px solid $Seperator;
+}
+
+.dot {
+    height: 3.5px;
+    width: 3.5px;
+    border-radius: 1.75px;
+    background-color: $White1;
+    margin-left: 0.563rem;
+    margin-right: 0.563rem;
+}
+
+.capsule {
+    height: 1.813rem;
+    width: fit-content;
+    background: $Seperator;
+    border-radius: 3.5rem;
+    padding: 0.25rem 0.875rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+//
+
+
+
+.title {
+    font-family: 'Nexa-Bold';
+    font-size: 1rem;
+    color: $White1;
+    margin: 0;
+}
+
+.subtitle {
+    font-family: 'Nexa-TextRegular';
+    font-size: 0.938rem;
+    color: $White2;
+    margin: 0;
+}
+
+.sectiontitle {
+    font-family: 'Nexa-ExtraBold';
+    font-size: 0.813rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: $White2;
+}
+
+
+.download_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.875rem;
+}
+
+.iconWrapper {
+    margin: auto;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+
+.login_title {
+    font-family: 'Nexa-ExtraBold';
+    font-size: 1.875rem;
+    color: $White1;
+    margin: 0;
+}
+
+.terms_text {
+    flex: 1;
+    font-family: 'Nexa-TextRegular';
+    font-size: 0.875rem;
+    color: $White3;
+}
+
+.text_blue {
+    color: $Blue1;
+}
+
+.blue_underline {
+    text-decoration: underline $Blue1;
+
+}
+
+
+
+.button_wrapper {
+    position: fixed;
+    bottom: 2.75rem;
+    margin-top: 16rem;
+    bottom: 2.75rem;
+    @include row-center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    width: 100%;
+    max-width: 36rem;
+    gap: 1rem;
+
+}
+
+.bottom_20 {
+    bottom: 20rem;
+}
+
+.bottom_23 {
+    bottom: 23rem;
+}
+
+.bottom_25 {
+    bottom: 23rem;
+}
+
+.background {
+    background-color: #0C0C0D;
+}
+
+.black {
+    color: $Black;
+}
+
+.cardbackground {
+    color: $CardBackground;
+}
+
+.white {
+    color: $White;
+}
+
+.white1 {
+    color: $White1;
+}
+
+.white2 {
+    color: $White2;
+}
+
+.white3 {
+    color: $White3;
+}
+
+.white9 {
+    color: $White9;
+}
+
+.white10 {
+    color: $White10;
+}
+
+.grey {
+    color: $Grey;
+}
+
+.offWhite {
+    color: $OffWhite;
+}
+
+.blue1 {
+    color: $Blue1;
+}
+
+.blue2 {
+    color: $Blue2;
+}
+
+.blue3 {
+    color: $Blue3;
+}
+
+.green {
+    color: $Green !important;
+}
+
+.orange {
+    color: $Organge !important;
+}
+
+.gap-10 {
+    gap: 0.625rem;
+}
+
+.scroll-y {
+    overflow-y: scroll;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+//padding
+.p-0 {
+    padding: 0;
+}
+
+.pt-36 {
+    padding-top: 1.5rem;
+}
+
+.pb-36 {
+    padding-bottom: 1.5rem;
+}
+
+.pb-48 {
+    padding-bottom: 3rem;
+}
+
+.pt-8 {
+    padding-top: 0.5rem;
+}
+
+
+.ph-24 {
+    padding: 0 1.5rem;
+}
+
+.ph-16 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+//line-height
+.lh-24 {
+    line-height: 1.5rem;
+}
+
+.lh-26 {
+    line-height: 1.625rem;
+}
+
+//margin right
+
+.mr-0 {
+    margin-right: 0;
+}
+
+.mr-3 {
+    margin-right: 0.188rem;
+}
+
+.mr-6 {
+    margin-right: 0.375rem;
+}
+
+.mr-8 {
+    margin-right: 0.5rem;
+}
+
+.mr-10 {
+    margin-right: 0.625rem;
+}
+
+.mr-12 {
+    margin-right: 0.75rem;
+}
+
+.mr-16 {
+    margin-right: 1rem;
+}
+
+.mr-20 {
+    margin-right: 1.25rem;
+}
+
+.mr-28 {
+    margin-right: 1.75rem;
+}
+
+
+//marginbottom
+
+.mb-1 {
+    margin-bottom: 0.175rem;
+}
+
+.mb-4 {
+    margin-bottom: 0.25rem;
+}
+
+.mb-6 {
+    margin-bottom: 0.375rem;
+}
+
+.mb-8 {
+    margin-bottom: 0.5rem;
+}
+
+.mb-12 {
+    margin-bottom: 0.75rem;
+}
+
+
+
+.mb-9 {
+    margin-bottom: 0.563rem;
+}
+
+
+.mb-16 {
+    margin-bottom: 1rem !important;
+}
+
+.mb-20 {
+    margin-bottom: 1.25rem;
+}
+
+.mb-22 {
+    margin-bottom: 1.375rem;
+}
+
+.mb-24 {
+    margin-bottom: 1.5rem;
+}
+
+.mb-28 {
+    margin-bottom: 1.75rem;
+}
+
+.mb-30 {
+    margin-bottom: 1.875rem;
+}
+
+.mb-32 {
+    margin-bottom: 2rem;
+}
+
+.mb-37 {
+    margin-bottom: 2.3rem;
+}
+
+.mb-44 {
+    margin-bottom: 2.75rem;
+}
+
+.mb-48 {
+    margin-bottom: 3rem;
+}
+
+.mb-56 {
+    margin-bottom: 3.5rem;
+}
+
+
+
+.mb-64 {
+    margin-bottom: 4rem;
+}
+
+
+.mb-88 {
+    margin-bottom: 5.5rem;
+}
+
+.mb-100 {
+    margin-bottom: 7rem;
+}
+
+.mb-120 {
+    margin-bottom: 8.5rem;
+}
+
+//margin top
+
+.mt-1 {
+    margin-top: 0.1rem;
+}
+
+.mt-4 {
+    margin-top: 0.25rem;
+}
+
+.mt-8 {
+    margin-top: 0.5rem;
+}
+
+.mt-16 {
+    margin-top: 1rem;
+}
+
+.mt-18 {
+    margin-top: 1.125rem;
+}
+
+.mt-20 {
+    margin-top: 1.25rem;
+}
+
+.mt-22 {
+    margin-top: 1.375rem;
+}
+
+.mt-24 {
+    margin-top: 1.5rem;
+}
+
+.mt-28 {
+    margin-top: 1.75rem;
+}
+
+.mt-32 {
+    margin-top: 2rem;
+}
+
+.mt-36 {
+    margin-top: 2.25rem;
+}
+
+.mt-40 {
+    margin-top: 2.5rem;
+}
+
+.mt-42 {
+    margin-top: 2.625rem;
+}
+
+.mt-48 {
+    margin-top: 3rem;
+}
+
+
+.mt-56 {
+    margin-top: 3.5rem;
+}
+
+
+.mt-70 {
+    margin-top: 4.375rem;
+}
+
+.mt-96 {
+    margin-top: 6rem;
+}
+
+.mt-160 {
+    margin-top: 10rem;
+}
+
+.mt-240 {
+    margin-top: 20rem;
+}
+
+//margin left
+
+.ml-3 {
+    margin-left: 0.188rem;
+}
+
+.ml-8 {
+    margin-left: 0.5rem;
+}
+
+.ml-11 {
+    margin-left: 0.688rem;
+}
+
+.ml-17 {
+    margin-left: 1.063rem;
+}
+
+.ml-20 {
+    margin-left: 1.25rem;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: $Seperator;
+}
+
+.align_text_center {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row !important;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column !important;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-start {
+    align-items: flex-start !important;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.col-lg-10,
+.col-xl-10 {
+    flex-basis: 83.33%;
+    max-width: 83.33%;
+
+    .cursor_pointer {
+        cursor: pointer;
+    }
+}
+
+//modal
+.modal {
+    .modalTitle {
+        font-family: 'Nexa-ExtraBold';
+        font-size: 1.313rem;
+        color: $White1;
+        margin: 0;
+        margin-bottom: 0.625rem;
+    }
+
+    .modalSubTitle {
+        font-family: 'Nexa-TextRegular';
+        font-size: 1rem;
+        color: $White2;
+        margin: 0;
+        margin-bottom: 3.5rem;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .width_45 {
+        width: 48%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .width_95 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.notfound_image {
+    margin: auto;
+    margin-top: 88px;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,26 @@
+@import '../../../styles/base/global';
+
+.playstore_button{
+    background: $Playbuttonbg;
+    border-radius: 57px;
+    height: 48px;
+    width: 206px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+  
+
+    .start{
+      font-size: 16px;
+       font-family: "Nexa-Bold";
+       color: $White4;
+       display: flex;
+       margin-top: -2px;
+    }
+}
+.playstore_icons{
+    display: flex;
+    gap: 10px;
+}

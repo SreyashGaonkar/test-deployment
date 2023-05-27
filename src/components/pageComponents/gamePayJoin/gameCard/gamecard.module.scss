@@ -1,0 +1,25 @@
+@import '../../../../styles/base/global';
+
+.container {
+    background-color: $CardBackground;
+    width: 100%;
+    padding: 0.875rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+
+    .left {
+        margin-right: 0.563rem;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image {
+        border-radius: 1.563rem;
+        margin-right: 0.75rem;
+    }
+
+}

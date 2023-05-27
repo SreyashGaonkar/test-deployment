@@ -1,0 +1,18 @@
+@import '../../../styles/base/global';
+
+.container {
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 1.563rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $ButtonGrey;
+
+
+
+}
+
+.active {
+    background: linear-gradient(180deg, $LinearBlue1 0%, $LinearBlue2 100%);
+}

@@ -1,0 +1,53 @@
+@import '../../../../../styles/base/global';
+
+.cards_container{
+    margin-top: 60px;
+
+    .card_one{
+        background: rgb(39, 39, 39);
+        padding: 48px 24px 64px;
+        border-radius: 0px;
+    }
+}
+.image_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards_title{
+    font-family: "Nexa-ExtraBold";
+    color: $White4;
+}
+.cards_content{
+    font-family: "Nexa-TextRegular";
+    color: $TextGray1;
+}
+
+.card_two{
+    background: $Background;
+    padding: 48px 24px 64px;
+    border-radius: 0px;
+    margin-top: 32px;
+}
+
+//resonsive media queries
+
+@media all and (min-width:0px){
+    .cards_title{
+        font-size: 22px;
+    }
+    .cards_content{
+        font-size: 17px;
+        line-height: 30px;
+    }
+}
+
+@media all and (min-width: 540px){
+    .cards_title{
+        font-size: 26px;
+    }
+    .cards_content{
+        font-size: 19px;
+        line-height: 34px;
+    }
+}

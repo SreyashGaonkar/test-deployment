@@ -1,0 +1,47 @@
+@import '../../styles';
+
+.container {
+    flex: 1;
+    display: flex !important;
+    flex-direction: column;
+    padding-bottom: 16.25rem;
+    position: relative;
+    overflow: hidden;
+    .center {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.invalid{
+    font-family:"Nexa-ExtraBold";
+    font-size: 21px;
+    line-height: 29px;
+    color:#E1E2E5;
+    margin-top: 40px;
+    text-align: center;
+}
+.notAvailable{
+    font-family:"Nexa-Regular";
+    font-size: 16px;
+    line-height: 100%;
+    color:#7B818C;
+    margin-top: 14px;
+    text-align: center;
+}
+.notAvailable2{
+    font-family:"Nexa-Regular";
+    font-size: 16px;
+    line-height: 100%;
+    color:#7B818C;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.straightline{
+    border-bottom: 1px solid #272A2E;
+    margin-top: 88px;
+}
+.getApp{
+    margin-top: 96px;
+}

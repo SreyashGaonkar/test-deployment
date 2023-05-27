@@ -1,0 +1,338 @@
+@import '../../../../styles/base/global';
+
+
+.towcard_container{
+    display: flex;
+    gap: 16px;
+}
+.town_card{
+    background: $Townbg;
+    border-radius: 24px;
+    padding: 16px;
+}
+.town_card_grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.imageFixed{
+    display: flex;
+    .redcircle{
+    position: absolute;
+    }
+    .talkerpic{
+        position: absolute;
+    }
+}
+
+//text
+
+
+//resonsive media queries
+
+@media all and (min-width:768px){
+    .towntalk_container{
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-left: 10px;
+        margin-bottom: -20px;
+    }
+    .town_card{
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+    .town_card_grid{
+        gap: 7rem;
+      }
+    .rect3{
+        height: 360px;
+        width: 231px;
+        margin-top: -30px;
+        }
+        .redcircle{
+        height: 270px;
+        margin-left: 52px;
+        margin-top: 15px;
+        width: 133px;
+        }
+        .talkerpic{
+            height: 270px;
+            margin-left: 52px;
+            margin-top: 7px;
+            width: 133px;
+        }
+    .talker_content{
+        margin-left: -100px;
+        margin-top: 0px;
+    }
+    .comment {
+        font-size: 16px;
+        margin-top: 85px;
+    }
+    .talkername {
+        font-size: 18px;
+        margin-top: 60px;
+    }
+    .talkerlocation {
+        font-size: 16px;
+    }
+}
+
+@media all and (min-width:900px){
+    .town_card_grid{
+        gap: 3rem;
+      }
+    .comment {
+        font-size: 17px;
+        margin-top: 85px;
+    }
+    .talkername {
+        font-size: 17px;
+        margin-top: 60px;
+    }
+    .talkerlocation {
+        font-size: 15px;
+    }
+}
+@media all and (min-width:980px){
+    .town_card_grid{
+        gap: 1rem;
+      }
+}
+@media all and (min-width:1024px){
+    .towntalk_container{
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-left: 10px;
+        margin-bottom: -20px;
+    }
+    .town_card{
+        padding-left: 80px;
+        padding-right: 40px;
+    }
+    .town_card_grid{
+        gap: 10rem;
+      }
+    .rect3{
+        height: 500px;
+        width: 321px;
+        margin-top: -30px;
+        }
+        .redcircle{
+        height: 380px;
+        margin-left: 62px;
+        margin-top: 30px;
+        width: 200px;
+        }
+        .talkerpic{
+            height: 380px;
+            margin-left: 62px;
+            margin-top: 28px;
+            width: 199px;
+        }
+    .talker_content{
+        margin-left: -100px;
+        margin-top: 30px;
+    }
+    .comment {
+        font-size: 20px;
+        margin-top: 85px;
+        line-height: 40px;
+    }
+    .talkername {
+        font-size: 20px;
+        margin-top: 60px;
+        margin-bottom: 5px;
+    }
+    .talkerlocation {
+        font-size: 18px;
+    }
+}
+
+@media all and (min-width:1280px){
+    .towntalk_container{
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-left: 10px;
+        margin-bottom: -20px;
+    }
+    .town_card{
+        padding-left: 80px;
+        padding-right: 40px;
+    }
+    .town_card_grid{
+        gap: 5rem;
+      }
+    .rect3{
+        height: 600px;
+        width: 385px;
+        margin-top: -30px;
+        }
+        .redcircle{
+        height: 450px;
+        margin-left: 76px;
+        margin-top: 45px;
+        width: 235px;
+        }
+        .talkerpic{
+            height: 450px;
+            margin-left: 76px;
+            margin-top: 44px;
+            width: 235px;
+        }
+    .talker_content{
+        margin-left: -100px;
+        margin-top: 30px;
+    }
+    .comment {
+        font-size: 22px;
+        margin-top: 105px;
+        line-height: 40px;
+    }
+    .talkername {
+        font-size: 22px;
+        margin-top: 60px;
+        margin-bottom: 5px;
+    }
+    .talkerlocation {
+        font-size: 20px;
+    }
+}
+
+@media all and (min-width:1440px){
+    .towntalk_container{
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-left: 10px;
+        margin-bottom: -20px;
+    }
+    .town_card{
+        padding-left: 100px;
+        padding-right: 60px;
+    }
+    .town_card_grid{
+        gap: 5rem;
+      }
+    .rect3{
+        height: 600px;
+        width: 385px;
+        margin-top: -10px;
+        }
+        .redcircle{
+        height: 450px;
+        margin-left: 76px;
+        margin-top: 64px;
+        width: 235px;
+        }
+        .talkerpic{
+            height: 450px;
+            margin-left: 76px;
+            margin-top: 64px;
+            width: 235px;
+        }
+    .talker_content{
+        margin-left: -100px;
+        margin-top: 60px;
+    }
+    .comment {
+        font-size: 23px;
+        margin-top: 105px;
+        line-height: 40px;
+    }
+    .talkername {
+        font-size: 23px;
+        margin-top: 60px;
+        margin-bottom: 5px;
+    }
+    .talkerlocation {
+        font-size: 21px;
+    }
+}
+
+@media all and (min-width:1530px){
+    .towntalk_container{
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-left: 10px;
+        margin-bottom: -20px;
+    }
+    .town_card{
+        padding-left: 100px;
+        padding-right: 60px;
+    }
+    .town_card_grid{
+        gap: 5rem;
+      }
+    .rect3{
+        height: 600px;
+        width: 385px;
+        margin-top: -10px;
+        }
+        .redcircle{
+        height: 450px;
+        margin-left: 76px;
+        margin-top: 64px;
+        width: 235px;
+        }
+        .talkerpic{
+            height: 450px;
+            margin-left: 76px;
+            margin-top: 64px;
+            width: 235px;
+        }
+    .talker_content{
+        margin-left: -100px;
+        margin-top: 30px;
+    }
+    .comment {
+        font-size: 23px;
+        margin-top: 105px;
+        line-height: 40px;
+    }
+    .talkername {
+        font-size: 23px;
+        margin-top: 60px;
+        margin-bottom: 5px;
+    }
+    .talkerlocation {
+        font-size: 21px;
+    }
+}
+@media all and (min-width:1669px){
+    .towntalk_container{
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-left: 10px;
+        margin-bottom: -20px;
+    }
+    .town_card{
+        padding-left: 120px;
+        padding-right: 100px;
+    }
+    .town_card_grid{
+        gap: 0rem;
+      }
+    .rect3{
+        height: 600px;
+        width: 385px;
+        margin-top: -10px;
+        }
+    .talker_content{
+        margin-left: -100px;
+        margin-top: 80px;
+    }
+}
+@media all and (min-width:1889px){
+    .town_card{
+        padding-left: 200px;
+        padding-right: 260px;
+    }
+    .comment {
+        line-height: 44px;
+    }
+}
+@media all and (min-width:1920px){
+
+}
+@media all and (min-width:1921px){
+
+}

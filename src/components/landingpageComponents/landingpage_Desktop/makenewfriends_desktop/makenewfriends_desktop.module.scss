@@ -1,0 +1,262 @@
+@import '../../../../styles/base/global';
+
+.ready_game{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 10px;
+}
+.col_1 {
+    flex-basis: 8.33%;
+    max-width: 8.33%;
+  }
+  
+  .col_6 {
+    flex-basis: 50%;
+    max-width: 50%;
+    margin-top: 135px;
+  }
+  
+  .col_5 {
+    flex-basis: 41.66%;
+    max-width: 41.66%;
+  }
+
+  //image
+  .purplelines{
+    height: 353px;
+    width: 554px;
+    margin-left: 50px;
+    position: absolute;
+    z-index: 0;
+  }
+  .purpleman{
+    height: 503px;
+    width: 455px;
+    margin-top: -150.5px;
+    margin-left: 125px;
+    transform: rotate(0);
+  }
+
+  //text
+
+.game_always_text{
+    font-size: 63px;
+    line-height: 85px;
+}
+.bluefriends{
+    font-size: 63px;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Nexa-Bold" !important;
+    color: $LinearBlue3;
+    resize: none;
+    font-size-adjust: none;
+    text-shadow: .95px .25px $LinearBlue3;
+}
+.explain{
+    font-size: 22px;
+    line-height: 40px;
+    margin-top: 28px;
+    margin-bottom: 32px;
+}
+.yourgame_text_alignment{
+    margin-left: 28px;
+}
+
+//resonsive media queries
+
+@media all and (min-width:768px){
+  .ready_game{
+    margin-bottom: 200px;
+    margin-top: 225px;
+    margin-left: 10px;
+}
+  .purplelines{
+    margin-left: 30px;
+    width: 304px;
+    height: 250px;
+  }
+  .purpleman{
+    height: 310px;
+    width: 300px;
+    margin-left: 55px;
+    margin-top: -61px;
+  }
+  .game_always_text{
+    font-size: 30px;
+    line-height: 50px;
+}
+.bluefriends{
+    font-size: 30px;
+}
+.yourgame_text_alignment{
+    margin-left: 10px;
+}
+.explain1{
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 28px;
+  margin-bottom: 32px;
+}
+.explain{
+  display: none;
+}
+}
+
+@media all and (min-width:1000px){
+  .ready_game{
+    margin-bottom: 250px;
+    margin-top: 225px;
+    margin-left: 10px;
+}
+  .purplelines{
+    margin-left: 50px;
+    width: 354px;
+    height: 250px;
+  }
+  .purpleman{
+    height: 315px;
+    width: 310px;
+    margin-left: 90px;
+    margin-top: -66px;
+  }
+  .game_always_text{
+    font-size: 40px;
+    line-height: 60px;
+}
+.bluefriends{
+    font-size: 40px;
+}
+.yourgame_text_alignment{
+    margin-left: 20px;
+}
+.explain{
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 28px;
+  margin-bottom: 32px;
+}
+.explain1{
+  display: none;
+}
+}
+
+@media all and (min-width:1280px){
+  .ready_game{
+    margin-bottom: 350px;
+    margin-top: 215px;
+    margin-left: 10px;
+}
+  .purplelines{
+    margin-left: -10px;
+    width: 484px;
+    height: 353px;
+  }
+  .purpleman{
+    height: 450px;
+    width: 400px;
+    margin-left: 60px;
+    margin-top: -98px;
+  }
+  .game_always_text{
+    font-size: 50px;
+    line-height: 65px;
+}
+.bluefriends{
+    font-size: 50px;
+}
+.yourgame_text_alignment{
+    margin-left: 20px;
+}
+.explain{
+  font-size: 20px;
+  line-height: 40px;
+  margin-top: 28px;
+  margin-bottom: 32px;
+}
+}
+@media all and (min-width:1440px){
+   .purplelines{
+    margin-left: -10px;
+    width: 484px;
+    height: 353px;
+  }
+  .purpleman{
+    height: 450px;
+    width: 400px;
+    margin-left: 60px;
+    margin-top: -98px;
+  }
+  .game_always_text{
+    font-size: 54px;
+    line-height: 70px;
+}
+.bluefriends{
+    font-size: 54px;
+}
+.explain{
+    font-size: 23px;
+    line-height: 40px;
+    margin-top: 28px;
+    margin-bottom: 32px;
+}
+.yourgame_text_alignment{
+    margin-left: 20px;
+}
+}
+
+@media all and (min-width:1530px){
+  .purplelines{
+    margin-left: 50px;
+    width: 484px;
+    height: 353px;
+  }
+  .purpleman{
+    height: 450px;
+    width: 400px;
+    margin-left: 120px;
+    margin-top: -98px;
+  }
+  .game_always_text{
+    font-size: 63px;
+    line-height: 85px;
+}
+.bluefriends{
+    font-size: 63px;
+}
+.explain{
+    font-size: 22px;
+    line-height: 40px;
+    margin-top: 28px;
+    margin-bottom: 32px;
+}
+.yourgame_text_alignment{
+    margin-left: 60px;
+}
+}
+
+@media all and (min-width:1889px){
+  .ready_game{
+    margin-bottom: 430px;
+    margin-top: 225px;
+    margin-left: 10px;
+}
+  .purplelines{
+    margin-left: 50px;
+    width: 614px;
+    height: 403px;
+  }
+  .purpleman{
+    height: 545px;
+    width: 489px;
+    margin-left: 160px;
+    margin-top: -142px;
+  }
+  .col_1 {
+    flex-basis: 20%;
+    max-width: 20%;
+  }
+  .yourgame_text_alignment{
+    margin-left: 20px;
+}
+}

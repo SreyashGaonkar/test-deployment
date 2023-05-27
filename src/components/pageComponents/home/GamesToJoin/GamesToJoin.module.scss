@@ -1,0 +1,65 @@
+@import '../../../../styles/base/global';
+
+.container {
+
+    .subContainer {
+        border-top: 1px solid #1E2F52;
+    }
+
+    .capsule {
+        margin-top: -1.25rem;
+        margin-left: 1rem;
+        width: 10.938rem;
+        height: 2.5rem;
+        border-radius: 1.25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $CapsuleBackground;
+    }
+
+    .card {
+        width: 100%;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+
+        .capsule_conatiner {
+            height: 2.063rem;
+            padding: 0.313rem 0.875rem;
+            border-radius: 1rem;
+            background: $CapsuleGradient;
+        }
+
+
+        .image {
+            border-radius: 1.563rem;
+            margin-right: 0.75rem;
+        }
+
+        .w_80 {
+            width: 80%;
+        }
+    }
+
+    .w_64 {
+        width: 4.5rem;
+    }
+
+    .w_128 {
+        width: 8rem;
+    }
+
+    .no_game_card {
+        width: 100%;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: $CardBackground;
+        padding: 1rem 1rem;
+    }
+}

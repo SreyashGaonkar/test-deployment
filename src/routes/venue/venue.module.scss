@@ -1,0 +1,16 @@
+@import "../../styles/index.scss";
+
+.container {
+
+    flex: 1;
+    display: flex !important;
+    flex-direction: column;
+    padding-bottom: 16.25rem;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+
+    .button_container {
+        min-width: 13rem;
+    }
+}

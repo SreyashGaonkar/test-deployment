@@ -1,0 +1,27 @@
+@import '../../styles';
+
+.container {
+    min-height: 100vh;
+    @include container;
+
+    .grey_button {
+        padding: 2px 8px;
+        background: $ChipGrey;
+    }
+
+    .button_container {
+        width: 6.875rem;
+    }
+
+    .loading_container {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $Modaloverlay;
+    }
+}

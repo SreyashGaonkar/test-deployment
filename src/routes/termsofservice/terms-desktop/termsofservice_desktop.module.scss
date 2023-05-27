@@ -1,0 +1,62 @@
+@import '../../../styles/base/global';
+
+.terms_desktop_container{
+    height: auto;
+    width: 100%;
+    padding: 0 1rem;
+    max-width: 48rem;
+    min-width: 24rem;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    margin-top: 75px;
+}
+.terms_background{
+    margin-left: 20px;
+    border-bottom: 1px solid rgb(41, 39, 39);
+
+    .terms_title{
+        font-family: "Nexa-Bold";
+        font-size: 35px;
+        color: $White4;
+    }
+    .terms_subtitle{
+        font-family: "Nexa-Regular";
+        font-size: 22px;
+        color: $White4;
+        margin-top: 12px;
+        margin-bottom: 44px;
+    }
+    .terms_content_title{
+        font-family: "Nexa-Regular";
+        font-size: 20px;
+        color: $White8;
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+    .terms_content{
+        font-family: "Nexa-Book";
+        font-size: 18px;
+        color: $White8;
+        line-height: 34px;
+    }
+    .terms_content1{
+        font-family: "Nexa-Book";
+        font-size: 18px;
+        color: $White8;
+        line-height: 34px;
+        margin-bottom: 32px;
+        justify-content: start;
+        margin-top: 32px;
+    }
+    .terms_list{
+        font-family: "Nexa-Bold";
+        font-size: 24px;
+        color: $White4;
+        margin-bottom: 25px;
+    }
+    .list_align{
+            padding-inline-start: 24px !important;
+    }
+}

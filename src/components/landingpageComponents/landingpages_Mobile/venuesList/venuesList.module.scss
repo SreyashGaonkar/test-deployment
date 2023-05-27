@@ -1,0 +1,97 @@
+@import '../../../../styles/base/global';
+
+.venues_container {
+    padding: 0px 24px;
+    margin-bottom: 96px;
+    margin-top: 80px;
+
+    .venues_title {
+        text-align: center;
+        font-family: "Nexa-ExtraBold";
+        font-size: 28px;
+        color: $White4;
+    }
+
+    .venues_title1 {
+        text-align: center;
+        font-family: "Nexa-ExtraBold";
+        font-size: 28px;
+        color: $White4;
+    }
+    
+}
+.venues_background{
+    background-image: url("../../../../../public/landingimages/mobilevenuecurve.webp");
+    background-position: 80%;
+    background-repeat: no-repeat;
+    height: 720px;
+    background-size: 100%;
+    margin-bottom: 0;
+}
+.venue_area {
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.venue_area1 {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-top: 24px;
+    margin-bottom: 64px;
+}
+
+.animate_container{
+    height: fit-content;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    gap: 25px;
+    .animate_venue_images{
+        display: inline-flex;
+        gap: 25px;
+        width: calc(250px *30);
+    animation: 200s linear 1s infinite leftside;
+    animation-play-state: running !important;
+    }
+}
+
+.animate_container1{
+    height: fit-content;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 100%;
+    margin-top: 110px;
+gap: 25px;
+
+    .animate_venue_images2{
+        display: inline-flex;
+        gap: 25px;
+        width: calc(250px *30);
+        animation: 200s linear 1s infinite rightside;
+        animation-play-state: running !important;
+       
+    }
+}
+
+@keyframes leftside {
+    0% {
+    transform: translateX(0);
+}
+100% {
+    transform: translateX(calc(-250px *6));
+}
+}
+@keyframes rightside {
+    100% {
+    transform: translateX(0);
+}
+0% {
+    transform: translateX(calc(-200px *4));
+}
+}

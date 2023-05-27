@@ -1,0 +1,18 @@
+@import '../../../../styles/base/global';
+
+.container {
+    position: relative;
+    height: 6.563rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    background: $CardGradient;
+    padding: 1.5rem 1.25rem;
+
+    .image_container {
+        position: absolute;
+        height: 6.563rem;
+        width: 9.625rem;
+        right: 0;
+        top: 0
+    }
+}

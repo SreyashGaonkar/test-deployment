@@ -1,0 +1,248 @@
+@import '../../../../styles/base/global';
+
+.ready_game{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 10px;
+}
+.col_1 {
+    flex-basis: 8.33%;
+    max-width: 8.33%;
+  }
+  
+  .col_6 {
+    flex-basis: 50%;
+    max-width: 50%;
+    margin-top: 135px;
+  }
+  
+  .col_5 {
+    flex-basis: 41.66%;
+    max-width: 41.66%;
+  }
+
+  //image
+  .orangeline{
+    position: absolute;
+    z-index: 0;
+  }
+  .orangeman{
+    transform: rotate(0);
+  }
+
+  //text
+.bluefriends{
+    -webkit-font-smoothing: antialiased;
+    font-family: "Nexa-Bold"!important;
+    color: $LinearBlue3;
+    resize: none;
+    font-size-adjust: none;
+    text-shadow: .95px .25px $LinearBlue3;
+}
+
+
+//resonsive media queries
+
+@media all and (min-width:768px){
+  .ready_game{
+    margin-bottom: 200px;
+    margin-top: 225px;
+    margin-left: 10px;
+}
+  .orangeline{
+    margin-left: -10px;
+    width: 285px;
+    height: 250px;
+  }
+  .orangeman{
+    height: 340px;
+    width: 215px;
+    margin-left: 20px;
+    margin-top: -98px;
+  }
+  .game_always_text{
+    font-size: 30px;
+    line-height: 50px;
+}
+.bluefriends{
+    font-size: 30px;
+}
+.yourgame_text_alignment{
+    margin-left: 10px;
+}
+.explain1{
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 28px;
+  margin-bottom: 32px;
+}
+.explain{
+  display: none;
+}
+}
+
+@media all and (min-width:1000px){
+  .ready_game{
+    margin-bottom: 250px;
+    margin-top: 225px;
+    margin-left: 10px;
+}
+  .orangeline{
+    margin-left: -10px;
+    width: 400px;
+    height: 303px;
+  }
+  .orangeman{
+    height: 360px;
+    width: 250px;
+    margin-left: 60px;
+    margin-top: -66px;
+  }
+  .game_always_text{
+    font-size: 40px;
+    line-height: 60px;
+}
+.bluefriends{
+    font-size: 40px;
+}
+.yourgame_text_alignment{
+    margin-left: 20px;
+}
+.explain{
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 28px;
+  margin-bottom: 32px;
+}
+.explain1{
+  display: none;
+}
+}
+
+@media all and (min-width:1280px){
+  .ready_game{
+    margin-bottom: 250px;
+    margin-top: 355px;
+    margin-left: 10px;
+}
+  .orangeline{
+    margin-left: -10px;
+    width: 406px;
+    height: 352px;
+  }
+  .orangeman{
+    height: 413px;
+    width: 265px;
+    margin-left: 60px;
+    margin-top: -74px;
+  }
+  .game_always_text{
+    font-size: 50px;
+    line-height: 65px;
+}
+.bluefriends{
+    font-size: 50px;
+}
+.yourgame_text_alignment{
+    margin-left: 20px;
+}
+.explain{
+  font-size: 20px;
+  line-height: 40px;
+  margin-top: 28px;
+  margin-bottom: 32px;
+}
+}
+@media all and (min-width:1440px){
+  .orangeline{
+    margin-left: -10px;
+    width: 430px;
+    height: 382px;
+  }
+  .orangeman{
+    height: 453px;
+    width: 285px;
+    margin-left: 60px;
+    margin-top: -84px;
+  }
+  .game_always_text{
+    font-size: 54px;
+    line-height: 70px;
+}
+.bluefriends{
+    font-size: 54px;
+}
+.explain{
+    font-size: 23px;
+    line-height: 40px;
+    margin-top: 28px;
+    margin-bottom: 32px;
+}
+.yourgame_text_alignment{
+    margin-left: 20px;
+}
+}
+@media all and (min-width:1500px){
+
+}
+@media all and (min-width:1530px){
+  .ready_game{
+    margin-bottom: 250px;
+    margin-top: 225px;
+    margin-left: 10px;
+}
+  .orangeline{
+    margin-left: -10px;
+    width: 489px;
+    height: 402.28px;
+  }
+  .orangeman{
+    height: 480px;
+    width: 300px;
+    margin-left: 55px;
+    margin-top: -85px;
+  }
+  .game_always_text{
+    font-size: 63px;
+    line-height: 85px;
+}
+.bluefriends{
+    font-size: 63px;
+}
+.explain{
+    font-size: 22px;
+    line-height: 40px;
+    margin-top: 28px;
+    margin-bottom: 32px;
+}
+.yourgame_text_alignment{
+    margin-left: 60px;
+}
+}
+
+@media all and (min-width:1889px){
+  .ready_game{
+    margin-bottom: 270px;
+    margin-top: 225px;
+    margin-left: 10px;
+}
+  .orangeline{
+    margin-left: -10px;
+    width: 523px;
+    height: 420px;
+  }
+  .orangeman{
+    height: 503px;
+    width: 310px;
+    margin-left: 90px;
+    margin-top: -95px;
+  }
+  .col_1 {
+    flex-basis: 20%;
+    max-width: 20%;
+  }
+  .yourgame_text_alignment{
+    margin-left: 120px;
+}
+}

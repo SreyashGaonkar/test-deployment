@@ -1,0 +1,9 @@
+@import '../../styles';
+
+.container {
+    min-height: 100vh;
+    @include container;
+    align-items: center;
+    justify-content: center;
+
+}

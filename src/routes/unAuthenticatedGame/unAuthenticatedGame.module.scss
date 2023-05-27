@@ -1,0 +1,32 @@
+@import '../../styles';
+
+.container {
+    flex: 1;
+    display: flex !important;
+    flex-direction: column;
+    padding-bottom: 16.25rem;
+    position: relative;
+
+    overflow: hidden;
+
+    .center {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+.bottom_button_container {
+    position: fixed;
+    width: 100%;
+    height: 8.75rem;
+    background: linear-gradient(0deg, #0C0C0D 38.26%, rgba(12, 12, 13, 0.9) 63.03%, rgba(12, 12, 13, 0.6) 80.72%, rgba(12, 12, 13, 0) 98.07%);
+    bottom: 0;
+    z-index: 1;
+    padding: 0 1rem;
+    max-width: 37.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    @include row-center;
+}

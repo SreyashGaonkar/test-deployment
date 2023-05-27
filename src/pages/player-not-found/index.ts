@@ -1,0 +1,1 @@
+export { default } from '../../routes/player-not-found';

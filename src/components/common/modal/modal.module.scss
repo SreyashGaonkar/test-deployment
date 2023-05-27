@@ -1,0 +1,73 @@
+@import '../../../styles/base/global';
+
+.container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: transparent;
+    transition: all 0.4s ease;
+
+
+    .subContainer {
+        position: absolute;
+        bottom: 0;
+        max-width: 37.5rem;
+        width: 100%;
+        padding: 2rem 1rem;
+        background-color: $Background;
+        z-index: 20;
+        transition: all 0.2s ease;
+        left: 50%;
+        transform: translate(-50%, 0) !important;
+
+        @include for-tablet-portrait-up {
+            bottom: 40%;
+            border-radius: 1rem;
+            padding: 2rem;
+        }
+    }
+
+    .overlay_container {
+        position: absolute;
+        background-color: $Modaloverlay;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+    }
+
+
+
+}
+
+.show {
+    visibility: visible;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.slide_in {
+    transform: translateY(0%) !important;
+
+    @include for-tablet-portrait-up {
+        transform: none;
+        opacity: 1;
+
+    }
+}
+
+.slide_out {
+    transform: translateY(100vh) !important;
+
+    @include for-tablet-portrait-up {
+        transform: none;
+        opacity: 0;
+
+    }
+}

@@ -1,0 +1,21 @@
+@import '../../../../styles/base/global';
+
+
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+
+    .rating_text {
+        font-family: 'Nexa-TextRegular';
+        font-size: 0.938rem;
+        color: $yellow;
+        margin-right: 0.125rem;
+    }
+
+
+
+}

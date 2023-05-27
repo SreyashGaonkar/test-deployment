@@ -1,0 +1,20 @@
+@import '../../../../../styles/base/global';
+
+.cards_container{
+    padding: 0px 24px;
+    .cards_title1{
+        font-family: "Nexa-Regular";
+        font-size: 20px;
+        color: $White1;
+        text-align: center;
+        margin-top: 104px;
+        opacity: 0.6;
+    
+    }
+    .cards_title2{
+        font-family: "Nexa-ExtraBold";
+        font-size: 28px;
+        color: $White1;
+        text-align: center;
+    }
+}

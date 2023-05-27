@@ -1,0 +1,67 @@
+@import '../../../../styles/base/global';
+
+.nav_desktop_container {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 40px;
+
+
+    .nav_desktop_logo {
+        height: 50px;
+        width: fit-content;
+        position: relative;
+        z-index: 100;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    .getTurf_desktop_button {
+        height: 40px;
+        width: 176px;
+        margin-top: 10px;
+        position: relative;
+        z-index: 100;
+        cursor: pointer;
+    }
+}
+
+//modal-content
+.modal_title{
+    font-family: "Nexa-Bold";
+    font-size: 37px;
+    color: $White4;
+}
+.modal_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal_body_scan{
+    display: flex;
+    justify-content: space-between;
+}
+.modal_list li{
+    margin-left: -20px;
+    line-height: 40px;
+}
+//scan QR
+.scanimages{
+    height: 180px;
+    width: 180px;
+}
+.modal_playstore_icons{
+    display: flex;
+    gap: 24px;
+    .mobileapple{
+        height: 24px;
+        width: 22px;
+    }
+    .mobileandroid{
+        height: 24px;
+        width: 22px;
+    }
+}
+.closebutton{
+    cursor: pointer;
+}

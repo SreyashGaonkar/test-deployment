@@ -1,76 +1,189 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* @font-face {
+        font-family: 'Nexa-BlackItalic';
+        src:url('../Nexa\ Complete\ Family/Nexa-BlackItalic.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }
+      @font-face {
+        font-family: 'Nexa-Bold';
+        src:url('../Nexa\ Complete\ Family/Nexa-Bold.otf') format("opentype");
+        font-weight: normal;
+        font-style: bold;
+      }
+      @font-face {
+        font-family: 'Nexa-Black';
+        src:url('../Nexa\ Complete\ Family/Nexa-Black.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-BoldItalic';
+        src:url('../Nexa\ Complete\ Family/Nexa-BoldItalic.otf') format("opentype");
+        font-weight: normal;
+        font-style: bold;
+      }@font-face {
+        font-family: 'Nexa-Book';
+        src:url('../Nexa\ Complete\ Family/Nexa-Book.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-BookItalic';
+        src:url('../Nexa\ Complete\ Family/Nexa-BookItalic.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-ExtraBold';
+        src:url('../Nexa\ Complete\ Family/Nexa-ExtraBold.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-ExtraBoldItalic';
+        src:url('../Nexa\ Complete\ Family/Nexa-ExtraBoldItalic.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-ExtraLight';
+        src:url('../Nexa\ Complete\ Family/Nexa-ExtraLight.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-ExtraLightItalic';
+        src:url('../Nexa\ Complete\ Family/Nexa-ExtraLightItalic.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-Heavy';
+        src:url('../Nexa\ Complete\ Family/Nexa-Heavy.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-HeavyItalic';
+        src:url('../Nexa\ Complete\ Family/Nexa-HeavyItalic.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-Light';
+        src:url('../Nexa\ Complete\ Family/Nexa-Light.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-LightItalic';
+        src:url('../Nexa\ Complete\ Family/Nexa-LightItalic.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-Regular';
+        src:url('../Nexa\ Complete\ Family/Nexa-Regular.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-RegularItalic';
+        src:url('../Nexa\ Complete\ Family/Nexa-RegularItalic.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-TextBlack';
+        src:url('../Nexa\ Complete\ Family/Nexa-TextBlack.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-TextBlackItalic';
+        src:url('../Nexa\ Complete\ Family/Nexa-TextBlackItalic.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-TextBold';
+        src:url('../Nexa\ Complete\ Family/Nexa-TextBold.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-TextBoldItalic';
+        src:url('../Nexa\ Complete\ Family/Nexa-TextBoldItalic.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-TextBook';
+        src:url('../Nexa\ Complete\ Family/Nexa-TextBook.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-TextExtraBold';
+        src:url('../Nexa\ Complete\ Family/Nexa-TextExtraBold.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-TextExtraBoldItalic';
+        src:url('../Nexa\ Complete\ Family/Nexa-TextExtraBoldItalic.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-TextExtraLight';
+        src:url('../Nexa\ Complete\ Family/Nexa-TextExtraLight.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-TextHeavy';
+        src:url('../Nexa\ Complete\ Family/Nexa-TextHeavy.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-TextHeavyItalic';
+        src:url('../Nexa\ Complete\ Family/Nexa-TextHeavyItalic.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-TextLight';
+        src:url('../Nexa\ Complete\ Family/Nexa-TextLight.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-TextLightItalic';
+        src:url('../Nexa\ Complete\ Family/Nexa-TextLightItalic.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-TextRegular';
+        src:url('../Nexa\ Complete\ Family/Nexa-TextRegular.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-TextRegularItalic';
+        src:url('../Nexa\ Complete\ Family/Nexa-TextRegularItalic.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-TextThin';
+        src:url('../Nexa\ Complete\ Family/Nexa-TextThin.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-TextThinItalic';
+        src:url('../Nexa\ Complete\ Family/Nexa-TextThinItalic.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-Thin';
+        src:url('../Nexa\ Complete\ Family/Nexa-Thin.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      }@font-face {
+        font-family: 'Nexa-ThinItalic';
+        src:url('../Nexa\ Complete\ Family/Nexa-ThinItalic.otf') format("opentype");
+        font-weight: "normal";
+        font-style: "normal";
+      } */
 }
 
-:root {
-  --text-purple: rgba(67, 56, 202, 1);
-  --text-purple-dark: rgba(79, 70, 229, 1);
-  --text-black: rgba(17, 24, 39, 1);
-  --text-white-100: rgba(229, 231, 235, 1);
-}
+.App {
+  background: #0C0C0D;
+  height: auto;
+  display: flex;
+  align-items: center;
 
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-  background-color: brown;
-  background-image: url("/static/mesh-gradient.png") !important;
-  font-family: IBMPlexSans, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  color: #373b64;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-p {
-  font-weight: 500;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-hr,
-p,
-pre {
-  margin: 0;
-}
-
-button {
-  background-color: transparent;
-  background-image: none;
-  font-weight: 600;
-}
-
-button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-}
-
-.glass {
-  background: hsla(0, 0%, 100%, 0.4);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  border: 1px solid hsla(0, 0%, 100%, 0.2);
-}
-
-.glass:hover {
-  background: hsla(0, 0%, 100%, 0.7);
-  border: 1px solid #fff;
 }

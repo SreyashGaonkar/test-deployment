@@ -1,0 +1,13 @@
+@import '../../../../styles/base/global';
+
+.container {
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+
+    .box {
+        width: 2.25rem;
+        height: 2.25rem;
+        background: $CardBackground;
+        border-radius: 0.5rem;
+    }
+}

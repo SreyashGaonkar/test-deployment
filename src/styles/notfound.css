@@ -1,0 +1,306 @@
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+}
+.App{
+    background-color: #0C0C0D;
+    height: auto;
+}
+
+.hzline{
+    border-top: 1px dashed #0C0C0D;
+    min-width: 315px;
+}
+.featuress{
+    width:90%;
+    margin-left:5%;
+    display: flex;
+    align-items: center;
+    padding-bottom:30px;
+  
+   
+  }
+  .visible {
+    display: block
+    }
+    .hidden {
+        display: none
+        } 
+  .background{
+    background: #0C0C0D;
+   
+  }
+  .logo{
+      min-width: 60px;
+      margin: 60px;
+      text-align:center;
+     
+  }
+  .logos{
+    min-width: 60px;
+      margin: 60px;
+      margin-top: 100px;
+      text-align:center;
+  }
+
+  body, h2{
+    margin: 60px;
+    margin-top: -20px;
+    text-align:center;
+  }
+  .text{
+    display: inline-block;
+
+  }
+  body, p {
+    margin:0;
+  }
+  .invalid{
+    font-family: "Nexa-ExtraBold";
+    font-size: 21px;
+    color: #E1E2E5;
+  }
+  .notavailable{
+    font-family: "Nexa-Regular";
+    color: #7B818C;
+    Font-size: 16px;
+    margin-top: -4vh;
+  }
+  .horiz{
+    width: 335px;
+    color: #7B818C;
+    width: 2px;
+  }
+
+  .foot{
+    font-family: "Nexa-TextRegular";
+    color: #B4B4B8;
+    Font-size: 15px;
+  }
+  #playstoreicons{
+    margin-bottom: 50vh;
+}
+.background{
+    height: 100%
+}
+.backgrounds{
+    height:100%;
+}
+button .download:hover{
+    color: #E1E2E5;
+}
+
+
+
+@media all and (max-width:500px){
+    #playstoreicons{
+        margin-bottom: 30vh;
+    }
+}
+@media all and (min-width:600px){
+ 
+    #adjust{
+        margin-left: 38vh;
+    }
+    .hzline{
+       
+        min-width: 565px;
+    }
+    #playstoreicons{
+        margin-bottom: 50vh ;
+    }
+}
+@media all and (min-width:1000px){
+ 
+    #adjust{
+        margin-left: -4vh;
+    }
+    .hzline{
+        
+        min-width: 460px;
+    }
+    #playstoreicons{
+        margin-bottom: 30vh !important;
+    }
+    .background{
+        height: 100%;
+    }
+}
+@media all and (min-width:1200px){
+ 
+
+    #playstoreicons{
+        margin-bottom: 20vh !important;
+    }
+}
+
+
+
+/*venue*/
+
+.gametype{
+    background: #191A1C;
+    border: 1px solid #272A2E;
+border-radius: 8px;
+align-items: center;
+
+}
+.logosvenue{
+    min-width: 100px;
+      margin: 10px;
+      margin-top: 120px;
+      margin-bottom: 50px;
+      text-align:center;
+     
+  }
+  .nametop{
+    font-family: "Nexa-Bold";
+    color:#B4B4B8;
+    Font-size: 16px;
+   
+  }
+
+.name{
+    font-family: "Nexa-Bold";
+    color:#E1E2E5;
+    Font-size: 16px;
+}
+.names {
+    font-family: "Nexa-Bold";
+    font-size: 16px;
+    color: #E1E2E5;
+    line-height: 24px;
+   
+}
+.nameswrap {
+    font-family: "Nexa-Bold";
+    font-size: 16px;
+    color: #E1E2E5;
+    line-height: 24px;
+   
+}
+#tng{
+    font-family: "Nexa-TextRegular";
+    color:#B4B4B8;
+    
+}
+.member div{
+    font-family: "Nexa-TextRegular";
+    color:#518CF0;
+    Font-size: 15px;
+}
+.card-footer{
+    border-top: 1px solid rgb(37, 36, 36);
+}
+#bluebutton{
+    margin-top: 40px;
+    background: linear-gradient(180deg, #2B69D6 0%, #1C53B3 100%);
+border-radius: 23px;
+width: 280px;
+height: 40px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 32px;
+gap: 8px;
+}
+#bluebutton1{
+    margin-top: 40px;
+    background: linear-gradient(180deg, #2B69D6 0%, #1C53B3 100%);
+    border-radius: 23px;
+    width: fit-content;
+height: 40px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 32px;
+gap: 8px;
+}
+.view{
+    font-family: "Nexa-Bold";
+    color:#E1E2E5;
+    Font-size: 16px;
+}
+
+@media all and (min-width:1330px){
+    .logosvenue {      
+        border-radius: 8px;
+        align-items: center ;
+        margin-left: 30%;
+        width: 491px;
+height: 275px;
+    }
+
+}
+
+
+/*profile*/
+
+#bluebuttons{
+    margin-top: 40px;
+    background: linear-gradient(180deg, #2B69D6 0%, #1C53B3 100%);
+border-radius: 23px;
+width: 290px;
+height: 40px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 32px;
+gap: 8px;
+}
+
+/*landingpage*/
+
+.logosgamename{
+
+      margin-top: 10px;
+      margin-bottom: 10px;
+      text-align:center;
+}
+
+/*host*/
+#hoster{
+    font-family: "Nexa-ExtraBold";
+    font-size: 14px;
+    color: #B4B4B8;
+  
+}
+#hostpagecards{
+    background: #0C0C0D;
+    border: none;
+}
+.backgrounds{
+    background: #0C0C0D;
+
+ 
+}
+
+
+@media all and (min-width:840px) {
+    #adjust{
+        margin-left: 39vh;
+    }
+    #adjusts{
+        margin-left: 37vh;
+    }
+    .hzline{
+        
+        min-width: 565px;
+    }
+}

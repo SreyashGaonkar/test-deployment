@@ -1,0 +1,32 @@
+@import '../../../../styles/base/global';
+
+.container {
+
+
+    .card {
+        background-color: $CardBackground;
+        min-width: 22rem;
+        padding: 0.875rem;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: row;
+
+        .left {
+            margin-right: 0.563rem;
+        }
+
+        .right {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .image {
+            border-radius: 1.563rem;
+            margin-right: 0.75rem;
+        }
+
+        .w_80 {
+            width: 80%;
+        }
+    }
+}

@@ -1,0 +1,179 @@
+@import '../../../../styles/base/global';
+
+.venue_animate_desktop_background{
+    background-image: url('../../../../../public/landingimages/newvenuecurve.svg');
+    background-repeat: no-repeat;
+}
+.col_1 {
+    flex-basis: 8.33%;
+    max-width: 8.33%;
+  }
+  
+  .col-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .col-10 {
+    flex-basis: 83.33%;
+    max-width: 83.33%;
+  }
+  .venue_top_alignment{
+    margin-top: 112px;
+    margin-bottom: 176px;
+  }
+
+  //text
+  .venue_text_alignment{
+    display: flex;
+    justify-content: center;
+  }
+  .weare{
+    text-align: center;
+  }
+  .biggestvenue{
+    font-size: 50px;
+    font-family: Nexa-Bold;
+    color: $White4;
+    margin-top: 40px;
+    margin-bottom: 64px;
+  }
+
+  //venue logos
+
+  .venue_animate_logo{
+    display: flex;
+   justify-content: center;
+  }
+
+  //venue animate
+
+  .venue_animate_1{
+    display: flex;
+    overflow: hidden;
+    gap: 64px;
+    margin-bottom: 64px;
+  }
+  .venue_animate_2{
+    display: flex;
+    overflow: hidden;
+    gap: 64px; 
+  }
+  .desktopground{
+    animation: 200s linear infinite scroll;
+}
+.desktopground2{
+ 
+    animation: 200s linear infinite scroller;
+}
+//@keyframes
+
+@keyframes scroller {
+    100% {
+    transform: translateX(0);
+}
+0% {
+    transform: translateX(calc(-250px *4));
+}
+}
+@keyframes scroll {
+    0% {
+    transform: translateX(0);
+}
+100% {
+    transform: translateX(calc(-250px *6));
+}
+}
+
+
+//venue logos
+
+
+//resonsive media queries
+
+@media all and (min-width:768px){
+  .venue_animate_desktop_background{
+    background-position: 60% 95%;
+    height: 850px;
+}
+  .biggestvenue{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 64px;
+  }
+  .venue_animate_logo{
+    display: flex;
+   justify-content: space-around;
+  }
+  .venuelogo{
+    height: 75px;
+    width: 75px;
+  }
+}
+
+@media all and (min-width:1024px){
+  .venue_animate_desktop_background{
+    background-position: 60% 95%;
+    height: 1000px;
+}
+  .biggestvenue{
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 84px;
+  }
+  .venue_animate_logo{
+    display: flex;
+   justify-content: center;
+   gap: 70px;
+  }
+  .venuelogo{
+    height:80px;
+    width: 80px;
+  }
+}
+
+@media all and (min-width:1280px){
+  .venue_animate_desktop_background{
+    background-position: 45% 95%;
+    height: 1100px;
+}
+}
+
+@media all and (min-width:1530px){
+
+  .venue_animate_desktop_background {
+    background-position: 20% 95%;
+    height: 1200px;
+  }
+  .venue_animate_logo{
+    display: flex;
+   justify-content: center;
+   gap: 60px;
+  }
+  .venuelogo{
+    height: 98px;
+    width: 98px;
+  }
+}
+@media all and (min-width:1669px){
+  .venue_animate_desktop_background {
+    background-position: 30% 95%;
+    height: 1200px;
+  }
+  .biggestvenue{
+    font-size: 53px;
+    margin-top: 40px;
+    margin-bottom: 110px;
+  }
+  .venue_animate_logo{
+    display: flex;
+   justify-content: center;
+   gap: 100px;
+  }
+}
+
+@media all and (min-width:1921px){
+  .venue_animate_desktop_background{
+    background-size: 100%;
+  }
+}

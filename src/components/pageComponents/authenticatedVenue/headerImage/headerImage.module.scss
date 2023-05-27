@@ -1,0 +1,32 @@
+@import '../../../../styles/base/global';
+
+.container {
+    width: 100%;
+    height: 21.5rem;
+    position: relative;
+
+    .button_container {
+        position: absolute;
+        width: 100%;
+        padding: 1rem;
+        top: 2.5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .round_button {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 1.25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $RoundButton;
+    }
+
+    .image_container {
+        width: 100%;
+    }
+}

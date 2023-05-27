@@ -1,0 +1,82 @@
+@import '../../../../styles/base/global';
+
+
+.container_hero{
+    padding: 0px 24px;
+
+}
+.easiest_way{
+    font-family: "Nexa-ExtraBold";
+    font-size: 36px;
+    color:$White4;
+}
+.to_play{
+    font-family: "Nexa-ExtraBold";
+    font-size: 36px;
+    color:$White4; 
+
+    span{
+        font-family: "Nexa-ExtraBold";
+        font-size: 36px;
+        background: $BlueShadow2;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-shadow: .35px .001px $BlueShadow;
+    }
+}
+.explore{
+    font-family: "Nexa-Regular";
+    color: $TextGray;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.hero_image{
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/landingimages/mobileshadow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-y: 50%;
+}
+
+
+//@responsive media queries
+
+@media all and (min-width: 490px){
+    .easiest_way{
+        font-size: 44px;
+    }
+    .to_play{
+        font-size: 44px;
+        span{
+            font-size: 44px;
+            text-shadow: .35px .001px $BlueShadow;
+        }
+    }
+    .explore{
+        font-size: 19px;
+        line-height: 32px;
+    }
+}
+@media all and (min-width: 600px){
+    .easiest_way{
+        font-size: 50px;
+    }
+    .to_play{
+        font-size: 50px;
+        margin-top: -10px;
+        span{
+            font-size: 50px;
+            text-shadow: .35px .001px $BlueShadow;
+        }
+    }
+    .explore{
+        font-size: 19px;
+        line-height: 32px;
+    }
+}

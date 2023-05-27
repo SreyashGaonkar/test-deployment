@@ -1,0 +1,47 @@
+@import '../../styles/base/global';
+
+.privacy_background{
+    padding: 0px 24px;
+    border-bottom: 1px solid rgb(41, 39, 39);
+
+    .privacy_title{
+        font-family: "Nexa-ExtraBold";
+        font-size: 30px;
+        color: $White4;
+    }
+    .privacy_subtitle{
+        font-family: "Nexa-TextRegular";
+        font-size: 15px;
+        color: $White4;
+        margin-top: 24px;
+        margin-bottom: 48px;
+    }
+    .privacy_content_title{
+        font-family: "Nexa-TextRegular";
+        font-size: 17px;
+        color: $White8;
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+    .privacy_content{
+        font-family: "Nexa-TextBook";
+        font-size: 16px;
+        color: $White8;
+        line-height: 34px;
+    }
+    .privacy_content1{
+        font-family: "Nexa-TextBook";
+        font-size: 16px;
+        color: $White8;
+        line-height: 34px;
+        margin-bottom: 32px;
+        justify-content: start;
+        margin-top: 32px;
+    }
+    .privacy_list{
+        font-family: "Nexa-Bold";
+        font-size: 20px;
+        color: $White4;
+        margin-bottom: 25px;
+    }
+}

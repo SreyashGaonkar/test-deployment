@@ -1,0 +1,49 @@
+@import '../../../../styles/base/global';
+
+.container {
+
+
+    .button_container {
+        width: 8.5rem;
+    }
+
+    .progress_container {
+        width: 100%;
+        background: $BlueCardBackground;
+        border-radius: 0.625rem;
+        padding-left: 1rem;
+        padding-right: 1.25rem;
+        padding-top: 1.25rem;
+        padding-bottom: 2rem;
+    }
+
+    .dark_blue_text {
+        color: $IconDarkBlue;
+    }
+
+    .bar_container {
+        position: relative;
+    }
+
+    .gift_container {
+        width: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        bottom: -0.75rem;
+    }
+
+    .right_0 {
+        right: 0;
+    }
+
+    .right_56 {
+        right: 5.5rem;
+    }
+
+    .mb_-4 {
+        margin-bottom: -4px;
+    }
+
+}

@@ -1,0 +1,13 @@
+[  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.turftownapp",
+      "sha256_cert_fingerprints":
+        ["53:0A:C1:51:B9:81:20:AC:44:CA:4A:24:84:99:ED:C8:02:1E:97:35:6E:8C:0A:64:31:C4:03:3D:7F:8B:84:AB"]
+    }
+  },{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target" : { "namespace": "android_app", "package_name": "com.turftownapp",
+                 "sha256_cert_fingerprints": ["BE:81:45:12:CB:5F:2E:CC:3D:6C:F5:1A:E5:3D:90:32:D1:F9:68:D0:4B:0F:4B:EF:A0:0D:88:D2:5C:07:4C:D2"] }
+  }]

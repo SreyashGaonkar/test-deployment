@@ -1,0 +1,17 @@
+@import '../../../styles/base/global';
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 0.5rem;
+    border-radius: 3.625rem;
+    background-color: $ChipGrey;
+
+    .progress {
+        height: 0.5rem;
+        border-radius: 3.625rem;
+        background-color: $Blue2;
+    }
+}

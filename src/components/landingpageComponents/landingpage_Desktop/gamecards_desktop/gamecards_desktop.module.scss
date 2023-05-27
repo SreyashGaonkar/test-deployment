@@ -1,0 +1,345 @@
+@import '../../../../styles/base/global';
+
+.taskcardmain_container{
+    margin-bottom: 150px;
+    background-image: url("../../../../../public/landingimages/flarebg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.organisingbg{
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-left: 10px;
+}
+.cards_top{
+    margin-top: 160px;
+}
+.cards_head_text{
+    display: flex;
+    justify-content: center;
+    color: $White4;
+    font-family: "Nexa-TextBook";
+    opacity: 0.7;
+}
+.cards_head_text2{
+    display: flex;
+    justify-content: center;
+    color: $White4;
+    font-family: "Nexa-Bold";
+}
+
+//card1
+
+.card1_container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+.shortscard{
+    display: flex;
+    justify-content: space-between;
+    border-width: .1px 0 0 .5px;
+    border-color: #363636 transparent transparent #363636;
+    background: $Cardbg;
+    border-radius: 24px;
+    width: 1250px;
+}
+
+//card1_text
+
+.taskcards_title{
+    bottom: 0;
+}
+.taskcards_unit{
+    font-family: "Nexa-TextRegular";
+    color: $White10;
+}
+
+//card_image
+.roundvenue_image_container{
+display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+//card2
+.card2_container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 28px;
+}
+.shortscard2{
+    border-width: .1px 0 0 .5px;
+    border-color: #363636 transparent transparent #363636;
+    background: $Cardbg;
+    border-radius: 24px;
+
+}
+
+//card3
+.shortscard3{
+    border-width: .1px 0 0 .5px;
+    border-color: #363636 transparent transparent #363636;
+    background: $Cardbg;
+    border-radius: 24px;
+    height: auto;
+    width: 512px;
+}
+.shortscard4{
+    border-width: .1px 0 0 .5px;
+    border-color: #363636 transparent transparent #363636;
+    background: $Cardbg;
+    border-radius: 24px;
+    height: auto;
+    width: 712px;
+}
+
+//resonsive media queries
+
+@media all and (min-width:768px){
+    .cards_head_text{
+        font-size: 28px;
+    }
+    .shortscard{
+        height: fit-content;
+    }
+.shortscard_text{
+    padding-left: 30px;
+}
+    .cards_head_text2{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .taskcards_title{
+        margin-bottom: 24px;
+        font-size: 18px;
+    }
+    .taskcards_unit{
+        font-size: 13px;
+        line-height: 38px;
+    }
+    .unit_alignment{
+        padding-right: 20px;
+    }
+    .roundvenue_image_container{
+       padding-right: 50px;
+       margin-bottom: 60px;
+    }
+    
+    .roundvenue_image{
+        height: 130px;
+        width: 300px;
+        margin-top: 65px;
+    }
+    .roundvenue_image1{
+        height: 247px;
+        width: 247px;
+        margin-top: 25px;
+    }
+    .roundvenue_image2{
+        height: 160px;
+        width: 264px;
+        transform: scaleY(1.1);
+        margin-top: 95px;
+        margin-left: 20px;
+    }
+    .roundvenue_image3{
+        height: 140px;
+        width: 244px;
+        margin-top: 65px;
+    }
+    .roundvenue_image4{
+        height: 154px;
+        width: 154px;
+        margin-top: 65px;
+        margin-left: 40px;
+    }
+    .shortscard2{
+        height: auto;
+        width: 612px;
+    }
+}
+@media all and (min-width:800px){
+    .shortscard{
+        height: 300px;
+    }
+    .shortscard_text{
+        padding-left: 30px;
+    }
+        .cards_head_text2{
+            margin-top: 20px;
+            font-size: 30px;
+        }
+        .taskcards_title{
+            margin-bottom: 24px;
+            font-size: 20px;
+        }
+        .taskcards_unit{
+            font-size: 14px;
+            line-height: 38px;
+        }
+        .roundvenue_image_container{
+           padding-right: 60px;
+           margin-bottom: 60px;
+        }
+        
+        .roundvenue_image{
+            height: 130px;
+            width: 300px;
+            margin-top: 65px;
+        }
+        .roundvenue_image1{
+            height: 247px;
+            width: 247px;
+            margin-top: 25px;
+        }
+        .roundvenue_image2{
+            height: 160px;
+            width: 264px;
+            transform: scaleY(1.1);
+            margin-top: 95px;
+            margin-left: 20px;
+        }
+        .roundvenue_image3{
+            height: 140px;
+            width: 244px;
+            margin-top: 65px;
+            margin-left: 20px;
+        }
+        .roundvenue_image4{
+            height: 154px;
+            width: 154px;
+            margin-top: 65px;
+            margin-left: 40px;
+        }
+        .shortscard2{
+            height: auto;
+            width: 612px;
+        }
+    }
+
+@media all and (min-width:900px){
+    .roundvenue_image{
+        height: 160px;
+        width: 380px;
+        margin-top: 65px;
+    }
+    .roundvenue_image1{
+        height: 247px;
+        width: 247px;
+        margin-top: 25px;
+    }
+    .roundvenue_image2{
+        height: 190px;
+        width: 295px;
+        transform: scale(1);
+        margin-top: 95px;
+        margin-left: 20px;
+    }
+    .roundvenue_image3{
+        height: 157px;
+        width: 264px;
+        margin-top: 65px;
+    }
+    .roundvenue_image4{
+        height: 171px;
+        width: 171px;
+        margin-top: 65px;
+        margin-left: 40px;
+    }
+}
+
+@media all and (min-width:1024px){
+.shortscard{
+    padding-left: 60px;
+    padding-right: 30px;
+}
+.organisingbg{
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 10px;
+}
+.split_alignment{
+    padding-right: 20px;
+}
+.card1_container .shortscard_text{
+    margin-top: 20px;
+}
+}
+
+@media all and (min-width:1200px){
+    .cards_head_text{
+        font-size: 34px;
+    }
+    .cards_head_text2{
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    .taskcards_title{
+        margin-bottom: 24px;
+        font-size: 23px;
+    }
+    .taskcards_unit{
+        font-size: 18px;
+        line-height: 38px;
+    }
+    .shortscard{
+        height: 350px;
+    }
+    .roundvenue_image{
+        height: 190px;
+        width: 450px;
+        margin-top: 65px;
+    }
+    .roundvenue_image1{
+        height: 320px;
+        width: 320px;
+        margin-top: 25px;
+    }
+    .roundvenue_image2{
+        height: 227px;
+        width: 352px;
+        margin-top: 85px;
+        margin-left: 20px;
+    }
+    .roundvenue_image3{
+        height: 180px;
+        width: 311px;
+        margin-top: 65px;
+    }
+    .roundvenue_image4{
+        height: 205px;
+        width: 205px;
+        margin-top: 65px;
+        margin-left: 40px;
+    }
+}
+
+
+@media all and (min-width:1530px){
+    .cards_head_text{
+        font-size: 34px;
+    }
+    .cards_head_text2{
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    .roundvenue_image{
+        height: 210px;
+        width: 500px;
+        margin-top: 65px;
+    }
+ 
+}
+@media all and (min-width:1669px){
+    .cards_head_text{
+        font-size: 36px;
+    }
+    .cards_head_text2{
+        margin-top: 20px;
+        font-size: 42px;
+    }
+}

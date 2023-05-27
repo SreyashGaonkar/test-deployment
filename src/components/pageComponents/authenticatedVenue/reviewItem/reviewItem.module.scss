@@ -1,0 +1,32 @@
+@import '../../../../styles/base/global';
+
+.container {
+
+    .player_container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+
+    .left {
+        margin-right: 0.563rem;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comment_container {
+        max-height: 6.5rem;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .full_width {
+        height: auto;
+    }
+
+}

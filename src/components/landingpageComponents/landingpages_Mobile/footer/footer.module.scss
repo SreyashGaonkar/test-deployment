@@ -1,0 +1,131 @@
+@import '../../../../styles/base/global';
+
+.footer_background {
+    background: $CardBackground;
+    border-top: 1px solid $BgGray;
+    padding: 0px 24px;
+
+}
+.Footer_turf_logo{
+    height: 48px;
+    width: 87px;
+}
+.footer_title {
+    display: flex;
+    gap: 5rem;
+    justify-content: flex-start;
+
+    .title_footer {
+        font-family: "Nexa-Heavy";
+        font-size: 16px;
+        color: $White6;
+    }
+
+    .footer_content {
+        font-family: "Nexa-Regular";
+        font-size: 16px;
+        color: $White7;
+    }
+}
+
+.playstores_icons {
+    margin-bottom: 28px;
+}
+
+.terms_condition {
+    font-family: "Nexa-Bold";
+    font-size: 16px;
+    color: $White2_5;
+    padding-bottom: 100px;
+}
+.Appstore_icon{
+    height:48px;
+    width: 140px;
+}
+.Playstore_icon{
+    height:48px;
+    width: 160px;
+}
+
+//responsive media query
+
+@media all and (min-width: 490px){
+    .footer_title {
+        display: flex;
+        gap: 6rem;
+        justify-content: flex-start;
+    
+        .title_footer {
+            font-family: "Nexa-Heavy";
+            font-size: 19px;
+            color: $White6;
+        }
+    
+        .footer_content {
+            font-family: "Nexa-Regular";
+            font-size: 18px;
+            color: $White7;
+        }
+    }
+    .Footer_turf_logo{
+        height: 54px;
+        width: 96px;
+    }
+    .playstores_icons {
+        margin-bottom: 28px;
+    }
+    
+    .terms_condition {
+        font-family: "Nexa-Bold";
+        font-size: 17px;
+        color: $White2_5;
+        padding-bottom: 100px;
+    }
+    .Appstore_icon{
+        height:52px;
+        width: 160px;
+    }
+    .Playstore_icon{
+        height:52px;
+        width: 180px;
+    }
+}
+@media all and (min-width: 540px){
+    .footer_title {
+        display: flex;
+        gap: 8.5rem;
+        justify-content: flex-start;
+    
+        .title_footer {
+            font-family: "Nexa-Heavy";
+            font-size: 22px;
+            color: $White6;
+        }
+    
+        .footer_content {
+            font-family: "Nexa-Regular";
+            font-size: 20px;
+            color: $White7;
+        }
+    }
+    
+    .playstores_icons {
+        margin-bottom: 28px;
+    }
+    
+    .terms_condition {
+        font-family: "Nexa-Bold";
+        font-size: 19px;
+        color: $White2_5;
+        padding-bottom: 100px;
+    }
+    .Appstore_icon{
+        height:56px;
+        width: 170px;
+    }
+    .Playstore_icon{
+        height:56px;
+        width: 190px;
+    }
+}
+

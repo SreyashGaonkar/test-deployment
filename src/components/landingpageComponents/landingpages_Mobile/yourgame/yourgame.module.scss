@@ -1,0 +1,80 @@
+@import '../../../../styles/base/global';
+
+.container_secondpage {
+    padding: 0px 24px;
+
+    .game_always {
+        font-family: "Nexa-ExtraBold";
+        color: $White4;
+    }
+    .ready_for_you{
+        font-family: "Nexa-ExtraBold";
+        color: $White4;
+
+        span{
+         font-family: "Nexa-ExtraBold";
+        background: $BlueShadow2;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-shadow: .35px .001px $BlueShadow;
+        }
+    }
+    .ready_content{
+        font-family: "Nexa-TextRegular";
+        color: $TextGray1;
+    }
+}
+.container_secondpage_image{
+    display: flex;
+    justify-content: center;
+}
+
+//responsive media queries
+
+@media all and (min-width: 0px){
+    .game_always {
+        font-size: 32px;
+    }
+    .ready_for_you{
+        font-size: 32px;
+        span{
+        font-size: 32px;
+        }
+    }
+    .ready_content{
+        font-size: 17px;
+        line-height: 29px;
+    }
+}
+
+@media all and (min-width: 490px){
+    .game_always {
+        font-size: 44px;
+    }
+    .ready_for_you{
+        font-size: 44px;
+        span{
+        font-size: 44px;
+        }
+    }
+    .ready_content{
+        font-size: 19px;
+        line-height: 33px;
+    }
+}
+@media all and (min-width: 540px){
+    .game_always {
+        font-size: 48px;
+    }
+    .ready_for_you{
+        font-size: 48px;
+        span{
+        font-size: 48px;
+        }
+    }
+    .ready_content{
+        font-size: 19px;
+        line-height: 38px;
+    }
+}

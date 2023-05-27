@@ -1,0 +1,72 @@
+@import '../../../../../styles/base/global';
+
+
+.towntalk_container{
+    margin-top: 160px;
+}
+    .card_one{
+        background: $Cardbg1;
+        padding: 48px 24px 64px;
+        border-radius: 0px;
+        border-radius: 24px 24px 0px 0px;
+    }
+.image_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.towntalk_content{
+    font-family: "Nexa-Bold";
+    color: $TextGray1;
+    padding: 0px 2px;
+}
+.talker_name{
+    font-family: "Nexa-Bold";
+    color: $White4;
+    padding: 0px 2px;
+
+}
+.talker_address{
+    font-family: "Nexa-TextRegular";
+    color: $TextGray1;
+    padding: 0px 2px;
+}
+
+//resonsive media queries
+
+@media all and (min-width:0px){
+    .towntalk_content{
+        font-size: 17px;
+        line-height: 30px;
+        padding: 0px 2px;
+        margin-top: 28px;
+    }
+    .talker_name{
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 28px;  
+    }
+    .talker_address{
+        font-size: 15px;
+        line-height: 30px;
+        padding: 0px 2px;
+    }
+}
+
+@media all and (min-width: 600px){
+    .towntalk_content{
+        font-size: 19px;
+        line-height: 33px;
+        margin-top: 29px;
+    }
+    .talker_name{
+        font-size: 23px;
+        line-height: 30px;
+        margin-top: 28px;  
+    }
+    .talker_address{
+        font-size: 17px;
+        line-height: 34px;
+    }
+}

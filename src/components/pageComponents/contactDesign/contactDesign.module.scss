@@ -1,0 +1,58 @@
+@import '../../../styles/base/global';
+
+.contact_container {
+    padding: 0px 24px;
+
+    .contact_Image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        background-image: url("/landingimages/contactbg.webp");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-position-y: 50%;
+    }
+
+    .contact_title {
+        font-family: "Nexa-ExtraBold";
+        color: $White4;
+        margin-bottom: 32px;
+        margin-top: 110px;
+    }
+
+    .contact_content {
+        font-family: "Nexa-Regular";
+        color: $TextGray;
+        margin-bottom: 20px;
+       
+    }
+
+    .dotted_line {
+        border-top: 1px solid #272A2E;
+        margin-bottom: 40px;
+    }
+}
+
+//resonsive media queries
+
+@media all and (min-width:0px){
+    .contact_title {
+        font-size: 28px;
+    }
+    .contact_content {
+        font-size: 16px;
+        line-height: 170%;
+    }
+}
+
+@media all and (min-width: 540px){
+    .contact_title {
+        font-size: 32px;
+    }
+    .contact_content {
+        font-size: 18px;
+        line-height: 190%;
+    }
+}

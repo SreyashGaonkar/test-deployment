@@ -1,0 +1,18 @@
+@import '../../styles';
+
+.container {
+    flex: 1;
+    display: flex !important;
+    flex-direction: column;
+    padding-bottom: 16.25rem;
+    position: relative;
+
+    overflow: hidden;
+
+    .center {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
