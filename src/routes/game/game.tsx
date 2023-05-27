@@ -5,7 +5,7 @@ import { GetServerSideProps, NextPage } from "next";
 import moment from "moment";
 import Cookies from "js-cookie";
 import { useRouter } from "next/router";
-import dynamic from 'next/dynamic';
+import dynamic from "next/dynamic";
 //styles
 //components
 import Seo from "@/components/common/seo/Seo";
@@ -14,20 +14,26 @@ import { GameType } from "./type";
 //context
 import { AppContext } from "@/providers/app";
 
-const AuthenticatedGame = dynamic(() => import("../authenticatedGame/authenticatedGame"), {
-  ssr: false, // Set ssr option to false to disable server-side rendering for the component
-});
-const UnAuthenticatedGame = dynamic(() => import("../unAuthenticatedGame/unAuthenticatedGame"), {
-  ssr: true, // Set ssr option to false to disable server-side rendering for the component
-});
+const AuthenticatedGame = dynamic(
+  () => import("../authenticatedGame/authenticatedGame"),
+  {
+    ssr: false, // Set ssr option to false to disable server-side rendering for the component
+  }
+);
+const UnAuthenticatedGame = dynamic(
+  () => import("../unAuthenticatedGame/unAuthenticatedGame"),
+  {
+    ssr: true, // Set ssr option to false to disable server-side rendering for the component
+  }
+);
 
 interface PropType {
   game: GameType;
 }
 
 const Game: NextPage<PropType> = ({ game }) => {
-  // const { actions, user } = useContext(AppContext);
-  console.log('game', game)
+  const { actions, user } = useContext(AppContext);
+  console.log("game", game);
   const router = useRouter();
 
   useEffect(() => {
@@ -37,7 +43,6 @@ const Game: NextPage<PropType> = ({ game }) => {
     if (!game || game_Date < newdate) {
       router.push("/game-not-found");
     }
-
   }, [game, router]);
 
   const str = useMemo(() => game?.sport_name || "football", [game]);
@@ -63,31 +68,30 @@ const Game: NextPage<PropType> = ({ game }) => {
   );
   let gameUrl = useMemo(() => `turf://game/${game?._id}`, [game]);
 
-
   const isPartOfGame = useMemo(() => {
     if (game?.users) {
-      // const founditem = game?.users.find((item) => item?._id === user?._id);
-      // if (founditem) {
-      //   return true;
-      // } else {
-      //   return false;
-      // }
+      const founditem = game?.users.find((item) => item?._id === user?._id);
+      if (founditem) {
+        return true;
+      } else {
+        return false;
+      }
     } else {
       return false;
     }
-  }, [game?.users]);
+  }, [game?.users, user?._id]);
 
-  // const renderPage = useCallback(() => {
-  //   if (game) {
-  //     if (!Cookies.get("ACCESS_TOKEN")) {
-  //       return <UnAuthenticatedGame game={game} />;
-  //     } else if (Cookies.get("ACCESS_TOKEN") && isPartOfGame) {
-  //       return <AuthenticatedGame game={game} />;
-  //     } else {
-  //       return <UnAuthenticatedGame game={game} />;
-  //     }
-  //   }
-  // }, [game, isPartOfGame]);
+  const renderPage = useCallback(() => {
+    if (game) {
+      if (!Cookies.get("ACCESS_TOKEN")) {
+        return <UnAuthenticatedGame game={game} />;
+      } else if (Cookies.get("ACCESS_TOKEN") && isPartOfGame) {
+        return <AuthenticatedGame game={game} />;
+      } else {
+        return <UnAuthenticatedGame game={game} />;
+      }
+    }
+  }, [game, isPartOfGame]);
 
   if (!game) return null;
 
@@ -103,7 +107,7 @@ const Game: NextPage<PropType> = ({ game }) => {
           {`window.location = "turf://demo.com?type=game&id=${game?._id}"`}{" "}
         </script>
       </Seo>
-      {/* {renderPage()} */}
+      {renderPage()}
     </>
   );
 };
