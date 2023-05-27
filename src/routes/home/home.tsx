@@ -15,17 +15,11 @@ import ExploreVenue from "@/components/pageComponents/home/ExploreVenue/ExploreV
 // import GamesToJoin from '@/components/pageComponents/home/GamesToJoin/GamesToJoin';
 
 const YourGames = dynamic(
-  () => import("@/components/pageComponents/home/YourGames/yourGames"),
-  {
-    ssr: false, // Set ssr option to false to disable server-side rendering for the component
-  }
+  () => import("@/components/pageComponents/home/YourGames/yourGames")
 );
 
 const GamesToJoin = dynamic(
-  () => import("@/components/pageComponents/home/GamesToJoin/GamesToJoin"),
-  {
-    ssr: false, // Set ssr option to false to disable server-side rendering for the component
-  }
+  () => import("@/components/pageComponents/home/GamesToJoin/GamesToJoin")
 );
 
 const Home = () => {

@@ -1,1 +1,1 @@
-export { default } from './GamePayJoin'
+export { default } from "./GamePayJoin";

@@ -1,1 +1,1 @@
-export { default } from './paymentSuccess'
+export { default, getStaticProps } from "./paymentSuccess";
