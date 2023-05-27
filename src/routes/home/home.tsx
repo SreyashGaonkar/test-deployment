@@ -9,24 +9,10 @@ import dynamic from "next/dynamic";
 import styles from "./home.module.scss";
 import { GetStaticProps } from "next";
 //components
-// import HomeHeader from '@/components/pageComponents/home/homeHeader';
-// import ExploreVenue from '@/components/pageComponents/home/ExploreVenue/ExploreVenue';
+import HomeHeader from "@/components/pageComponents/home/homeHeader";
+import ExploreVenue from "@/components/pageComponents/home/ExploreVenue/ExploreVenue";
 // import YourGames from '@/components/pageComponents/home/YourGames/yourGames';
 // import GamesToJoin from '@/components/pageComponents/home/GamesToJoin/GamesToJoin';
-
-const HomeHeader = dynamic(
-  () => import("@/components/pageComponents/home/homeHeader"),
-  {
-    ssr: false, // Set ssr option to false to disable server-side rendering for the component
-  }
-);
-
-const ExploreVenue = dynamic(
-  () => import("@/components/pageComponents/home/ExploreVenue/ExploreVenue"),
-  {
-    ssr: false, // Set ssr option to false to disable server-side rendering for the component
-  }
-);
 
 const YourGames = dynamic(
   () => import("@/components/pageComponents/home/YourGames/yourGames"),
