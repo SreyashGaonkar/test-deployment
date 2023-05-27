@@ -20,12 +20,7 @@ const AuthenticatedGame = dynamic(
     ssr: false, // Set ssr option to false to disable server-side rendering for the component
   }
 );
-const UnAuthenticatedGame = dynamic(
-  () => import("../unAuthenticatedGame/unAuthenticatedGame"),
-  {
-    ssr: true, // Set ssr option to false to disable server-side rendering for the component
-  }
-);
+import UnAuthenticatedGame from "../unAuthenticatedGame/unAuthenticatedGame";
 
 interface PropType {
   game: GameType;
