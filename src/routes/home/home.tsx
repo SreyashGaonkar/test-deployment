@@ -24,6 +24,7 @@ const GamesToJoin = dynamic(
 
 const Home = () => {
   const router = useRouter();
+  console.log("home");
 
   useEffect(() => {
     if (!Cookies.get("ACCESS_TOKEN")) {
